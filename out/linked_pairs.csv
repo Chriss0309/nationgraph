@@ -1,0 +1,5 @@
+district,cluster_id,initiative_name,first_event_date,n_events,outcome_title,outcome_date,similarity,lead_days,matched,label
+Charlotte County Public Schools,charlotte-county-public-schools-0,Firewall Software,2021-03-09,1,"Firewall Services, per FCC USAC's E-rate Program",2022-01-20,0.5959,317,True,correct
+Charlotte County Public Schools,charlotte-county-public-schools-1,URL/Web Content Filtering and Monitoring,2021-05-11,1,"Firewall Services, per FCC USAC's E-rate Program",2022-01-20,0.4075,254,False,
+Citrus County School District,citrus-county-school-district-0,Securly Web Filtering and Monitoring,2020-12-08,1,,,,,False,
+Miami-Dade County Public Schools,miami-dade-county-public-schools-0,Cyber Liability Insurance Renewal,2021-06-23,1,ESSER NIST Cybersecurity Services,2022-04-15,0.3392,296,False,

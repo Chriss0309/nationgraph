@@ -1,0 +1,82 @@
+{
+  "charlotte-county-public-schools-0": {
+    "district": "Charlotte County Public Schools",
+    "initiative_name": "Firewall Software",
+    "category": "firewall",
+    "first_date": "2021-03-09",
+    "last_date": "2021-03-09",
+    "events": [
+      {
+        "date": "2021-03-09",
+        "state": "SOLICITATION",
+        "action": "Approved the request for proposals for firewall software.",
+        "vendor": "Sinnott Wolach Technology",
+        "amount": 179820.0,
+        "summary": "The board approved a request for proposals for firewall software under the eRate program. The listed vendor is Sinnott Wolach Technology, with an amount of $179,820.",
+        "evidence": "20/21-40GH Sinnott Wolach Technology Firewall Software, eRate LTT 37939708007400691 $179,820",
+        "url": "data/raw/charlotte_2022_01_20/boarddocs/packets/2021-03-09_BVGM285892F0_Regular_School_Board_Meeting.html",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "charlotte-county-public-schools-1": {
+    "district": "Charlotte County Public Schools",
+    "initiative_name": "URL/Web Content Filtering and Monitoring",
+    "category": "web content filtering",
+    "first_date": "2021-05-11",
+    "last_date": "2021-05-11",
+    "events": [
+      {
+        "date": "2021-05-11",
+        "state": "SOLICITATION",
+        "action": "Approved the Invitation to Negotiate for URL/web content filtering and monitoring services.",
+        "vendor": "United Data Technologies partnered with Lightspeed Systems",
+        "amount": 78499.0,
+        "summary": "The board approved an Invitation to Negotiate for URL/web content filtering and monitoring. The listed vendor is United Data Technologies partnered with Lightspeed Systems, with an amount of $78,499.",
+        "evidence": "INVITATION TO NEGOTIATE: Number Vendor Description Amount 20/21 - 44GH United Data Technologies Partnered with Lightspeed Systems URL/Web Content Filtering & Monitoring",
+        "url": "data/raw/charlotte_2022_01_20/boarddocs/packets/2021-05-11_BVGM9J596566_Regular_School_Board_Meeting.html",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "citrus-county-school-district-0": {
+    "district": "Citrus County School District",
+    "initiative_name": "Securly Web Filtering and Monitoring",
+    "category": "web filtering",
+    "first_date": "2020-12-08",
+    "last_date": "2020-12-08",
+    "events": [
+      {
+        "date": "2020-12-08",
+        "state": "AUTHORIZATION",
+        "action": "Approved a three-year license for Securly Web Filtering and additional 24/7 monitoring of negative emotional sentiment.",
+        "vendor": "Securly",
+        "amount": 227000.0,
+        "summary": "The board approved a three-year Securly Web Filtering license for student and staff devices, including requested 24/7 monitoring of negative emotional sentiment. Funding was identified from ESSER, mental health, technology, and Title IV sources.",
+        "evidence": "Approval is requested for the purchase of Securly Web Filtering of student and staff devices. We are also seeking approval for the additional 24/7 Monitoring of negative, emotional sentiment.",
+        "url": "data/raw/control_citrus/boarddocs/agendas/2020-12-08_BT4L2C546C6F.html",
+        "source_type": "board_agenda"
+      }
+    ]
+  },
+  "miami-dade-county-public-schools-0": {
+    "district": "Miami-Dade County Public Schools",
+    "initiative_name": "Cyber Liability Insurance Renewal",
+    "category": "cyber liability insurance",
+    "first_date": "2021-06-23",
+    "last_date": "2021-06-23",
+    "events": [
+      {
+        "date": "2021-06-23",
+        "state": "RENEWAL",
+        "action": "Requested authorization to renew existing cyber liability coverage.",
+        "vendor": null,
+        "amount": null,
+        "summary": "The agenda requests authorization to renew existing insurance coverages, explicitly including cyber liability coverage. No insurer or amount is identified.",
+        "evidence": "REQUEST AUTHORIZATION TO RENEW EXISTING COVERAGES INCLUDING CATASTROPHIC ATHLETIC ACCIDENT COVERAGE, LAW ENFORCEMENT PROFESSIONAL LIABILITY INSURANCE, EXCESS WORKERS’ COMPENSATION INSURANCE, GENERAL/AUTOMOBILE/PROFESSIONAL LIABILITY INSURANCE, BOILER AND MACHINERY COVERAGE, CYBER LIABILITY COVERAGE",
+        "url": "data/raw/miami_dade_2022_04_15/board_archive/2021-06-23/9335bc78315e404b__regular-agenda.html",
+        "source_type": "meeting_agenda"
+      }
+    ]
+  }
+}

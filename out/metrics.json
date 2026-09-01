@@ -1,0 +1,24 @@
+{
+  "n_docs": 124,
+  "n_events": 4,
+  "n_clusters": 4,
+  "coverage": {
+    "covered": 1,
+    "total": 5,
+    "rate": 0.2
+  },
+  "median_lead_days": 317,
+  "control_fp": {
+    "firing_districts": 0,
+    "control_districts": 3,
+    "rate": 0.0,
+    "n_multi_event_clusters": 0
+  },
+  "precision": {
+    "correct": 1,
+    "labeled": 1,
+    "rate": 1.0
+  },
+  "threshold": 0.78,
+  "match_threshold": 0.5
+}

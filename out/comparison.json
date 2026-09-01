@@ -1,0 +1,38 @@
+{
+  "charlotte-county-public-schools-0": {
+    "matched": true,
+    "similarity": 0.5959,
+    "outcome_title": "Firewall Services, per FCC USAC's E-rate Program",
+    "outcome_type": "RFP",
+    "outcome_date": "2022-01-20",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334989/220014432/RFP.pdf",
+    "lead_days": 317
+  },
+  "charlotte-county-public-schools-1": {
+    "matched": false,
+    "similarity": 0.4075,
+    "outcome_title": "Firewall Services, per FCC USAC's E-rate Program",
+    "outcome_type": "RFP",
+    "outcome_date": "2022-01-20",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334989/220014432/RFP.pdf",
+    "lead_days": 254
+  },
+  "citrus-county-school-district-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "miami-dade-county-public-schools-0": {
+    "matched": false,
+    "similarity": 0.3392,
+    "outcome_title": "ESSER NIST Cybersecurity Services",
+    "outcome_type": "RFP",
+    "outcome_date": "2022-04-15",
+    "outcome_url": "http://procurement.dadeschools.net/bidsol/pdf/bids/RFP-21-009-VF.pdf",
+    "lead_days": 296
+  }
+}
