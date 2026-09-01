@@ -1,0 +1,9 @@
+case_id,role,district,index_date,outcome_type,outcome_id,title,vendor,amount,outcome_url,window_start,window_end,portal_type,enrollment,matched_case_id,research_status
+miami_dade_2022_04_15,positive,Miami-Dade County Public Schools,2022-04-15,RFP,RFP-21-009-VF,ESSER NIST Cybersecurity Services,,,http://procurement.dadeschools.net/bidsol/pdf/bids/RFP-21-009-VF.pdf,2020-10-15,2022-04-14,custom,329337,,complete
+charlotte_2022_01_20,positive,Charlotte County Public Schools,2022-01-20,RFP,21/22-82KS,"Firewall Services, per FCC USAC's E-rate Program",,,https://publicdata.usac.org/SL/Prd/Form470/334989/220014432/RFP.pdf,2020-07-20,2022-01-19,usac,16400,,complete
+hernando_2022_02_16,positive,Hernando County School District,2022-02-16,FORM_470,220021785,New Firewall,,,https://publicdata.usac.org/SL/Prd/Form470/335024/220021785/Current/USAC_FCC_FORM_470_APPLICATION_220021785_CERTIFIED.pdf,2020-08-16,2022-02-15,usac,23415,,complete
+flagler_2022_01_21,positive,Flagler County School District,2022-01-21,GENERAL_SOLICITATION,22-13P,Next Generation Firewall,,,https://procurement.opengov.com/portal/flaglerschools/projects/16005/document?section=all,2020-07-21,2022-01-20,opengov,13131,,complete
+volusia_2022_09_12,positive,Volusia County School Board,2022-09-12,RFQ,RFQ-23-009KG,Firewall Upgrade,,,https://www.myvendorlink.com/agencies/vcsb/solicitationdetails?vsn=136017,2021-03-12,2022-09-11,vendorlink,62468,,complete
+control_nassau_2022_01_21,control,Nassau County School District,2022-01-21,,,,,,,2020-07-21,2022-01-20,boarddocs,12380,flagler_2022_01_21,complete
+control_citrus_2022_01_20,control,Citrus County School District,2022-01-20,,,,,,,2020-07-20,2022-01-19,boarddocs,15691,charlotte_2022_01_20,complete
+control_alachua_2022_02_16,control,Alachua County Public Schools,2022-02-16,,,,,,,2020-08-16,2022-02-15,boarddocs,28808,hernando_2022_02_16,complete
