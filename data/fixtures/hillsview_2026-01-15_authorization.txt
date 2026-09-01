@@ -1,0 +1,45 @@
+FICTIONAL TEST FIXTURE - NOT A REAL SCHOOL DISTRICT RECORD
+Hillsview School District
+Regular Board Meeting Minutes
+January 15, 2026
+Meeting called to order at 6:00 p.m.
+Location: District Administration Center
+Board members present: Adams, Bell, Cruz, Diaz, Evans, Ford, and Green.
+Board members absent: None.
+The chair led the pledge of allegiance.
+The secretary confirmed public notice and a quorum.
+Agenda Item 1 - Adoption of Agenda
+Motion to adopt by Member Adams.
+Second by Member Green.
+Motion carried 7-0.
+Agenda Item 2 - Student Presentation
+Students presented a community garden proposal.
+The board thanked the presenters.
+Agenda Item 3 - Public Comment
+Two speakers discussed recreation partnerships.
+No action was requested.
+Agenda Item 4 - Transportation Update
+Staff reviewed bus routing changes for spring activities.
+No procurement request accompanied the update.
+Agenda Item 5 - Cybersecurity Monitoring Procurement
+The superintendent presented the planned scope for centralized event monitoring.
+The scope calls for security information and event management (SIEM) services.
+Staff described log collection, alert correlation, onboarding, and support requirements.
+The budget ceiling remained the amount reserved in the November amendment.
+No vendor recommendation was made.
+Motion by Member Cruz to authorize the superintendent to issue an RFP for SIEM services.
+Second by Member Evans.
+The chair clarified that responses would return to the board before any award.
+Public comment on the motion was invited; no speakers came forward.
+Roll-call vote: Adams yes, Bell yes, Cruz yes, Diaz yes.
+Evans yes, Ford yes, Green no.
+Motion carried 6-1.
+Staff will publish the solicitation under the district's normal purchasing rules.
+Agenda Item 6 - Facilities Report
+The board received a roof-repair schedule.
+Agenda Item 7 - Consent Calendar
+Routine field trips and surplus-property items were approved.
+Agenda Item 8 - Board Member Comments
+The next meeting was announced for February 5, 2026.
+There being no further business, the meeting adjourned at 7:55 p.m.
+These minutes are a fictional fixture created only for automated testing.

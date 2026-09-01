@@ -1,0 +1,43 @@
+FICTIONAL TEST FIXTURE - NOT A REAL SCHOOL DISTRICT RECORD
+Hillsview School District
+Regular Board Meeting Minutes
+August 21, 2025
+Meeting called to order at 6:00 p.m.
+Location: District Administration Center
+Board members present: Adams, Bell, Cruz, Diaz, Evans, Ford, and Green.
+Board members absent: None.
+The chair led the pledge of allegiance.
+The secretary confirmed that public notice had been posted.
+Agenda Item 1 - Adoption of Agenda
+Motion by Member Bell to adopt the agenda.
+Second by Member Cruz.
+Motion carried 7-0.
+Agenda Item 2 - Public Comment
+Three speakers commented on after-school programming.
+No board action was requested.
+Agenda Item 3 - Superintendent Report
+The superintendent recognized the summer maintenance team.
+Enrollment projections will return in September.
+Agenda Item 4 - Transportation Update
+Staff reviewed revised bus routing for the west attendance area.
+Two stops will be consolidated after family notification.
+No purchase or contract was discussed.
+Agenda Item 5 - Information Technology Risk Briefing
+The information technology director presented the annual ransomware risk assessment.
+The assessment found that alert logs are reviewed separately by several teams.
+The director described a need for security information and event management (SIEM) monitoring.
+Central monitoring could allow staff to correlate alerts and respond earlier.
+No vendor was named.
+No cost estimate or funding request was presented.
+Members asked about staffing, retention of logs, and implementation timing.
+The board discussed whether a future cybersecurity monitoring initiative should be scoped.
+The chair directed staff to return with options and budget implications.
+This item was for discussion only, and no motion was made.
+Agenda Item 6 - Consent Calendar
+Routine travel and textbook disposal items were approved.
+Motion carried 7-0.
+Agenda Item 7 - Board Member Comments
+Member Evans thanked school volunteers.
+The next regular meeting was announced for September 4, 2025.
+There being no further business, the meeting adjourned at 7:42 p.m.
+These minutes are a fictional fixture created only for automated testing.

@@ -1,0 +1,6 @@
+district,meeting_date,source_type,url
+Hillsview,2025-08-21,minutes,data/fixtures/hillsview_2025-08-21_discussion.txt
+Hillsview,2025-11-13,minutes,data/fixtures/hillsview_2025-11-13_budget.txt
+Hillsview,2026-01-15,minutes,data/fixtures/hillsview_2026-01-15_authorization.txt
+Hillsview,2025-09-04,minutes,data/fixtures/hillsview_2025-09-04_distractor.txt
+Lakemont,2025-10-02,minutes,data/fixtures/lakemont_2025-10-02_facilities.txt

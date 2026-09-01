@@ -1,0 +1,43 @@
+FICTIONAL TEST FIXTURE - NOT A REAL SCHOOL DISTRICT RECORD
+Hillsview School District
+Regular Board Meeting Minutes
+November 13, 2025
+Meeting called to order at 6:02 p.m.
+Location: District Administration Center
+Board members present: Adams, Bell, Cruz, Diaz, Evans, Ford, and Green.
+Board members absent: None.
+The chair led the pledge of allegiance.
+The secretary verified a quorum and posted notice.
+Agenda Item 1 - Adoption of Agenda
+The agenda was adopted without objection.
+Agenda Item 2 - Recognitions
+The board recognized the regional robotics finalists.
+Agenda Item 3 - Public Comment
+One speaker requested additional crossing guards.
+No action was taken.
+Agenda Item 4 - Transportation Report
+Staff reported that revised bus routing reduced late arrivals.
+The report contained no request for new vehicles.
+Agenda Item 5 - Midyear Budget Amendment
+The chief financial officer presented proposed changes to the technology fund.
+The amendment moves unspent project funds into the next implementation period.
+The proposal has $450,000 earmarked for a cybersecurity monitoring platform (SIEM implementation).
+The amount covers anticipated software, configuration, and initial support.
+Vendors were deliberately unnamed because no solicitation had been authorized.
+The information technology director connected the request to the August risk briefing.
+Members asked whether the amount included staff training and log storage.
+Staff confirmed that final scope would be defined before any request for proposals.
+Motion by Member Diaz to approve the midyear budget amendment.
+Second by Member Ford.
+Roll-call vote: Adams yes, Bell yes, Cruz yes, Diaz yes.
+Evans yes, Ford yes, Green yes.
+Motion carried 7-0.
+The amendment reserved funds but did not select a product or supplier.
+Agenda Item 6 - Facilities Calendar
+Winter roof inspections will begin during the holiday closure.
+Agenda Item 7 - Consent Calendar
+Routine personnel and travel items were approved 7-0.
+Agenda Item 8 - Board Member Comments
+The chair announced the December workshop date.
+There being no further business, the meeting adjourned at 8:11 p.m.
+These minutes are a fictional fixture created only for automated testing.
