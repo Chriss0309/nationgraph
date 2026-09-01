@@ -15,7 +15,11 @@
 
 # next.js
 /.next/
-/out/
+/out/*
+!/out/timelines.json
+!/out/comparison.json
+!/out/metrics.json
+!/out/linked_pairs.csv
 
 # production
 /build
@@ -39,3 +43,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pipeline
+/.cache/
+__pycache__/
+/out-fixtures/
+
+# agent/editor tool state (churns every session)
+/.cursor/
