@@ -1,26 +1,387 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-sans-body);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-display);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-ng-tint-1: #f7fdfa;
+  --color-ng-tint-2: #ecf9f2;
+  --color-ng-tint-3: #d9f2e5;
+  --color-ng-tint-4: #c6ecd8;
+  --color-ng-green-100: #40bf7c;
+  --color-ng-green-200: #39ac70;
+  --color-ng-green-300: #339963;
+  --color-ng-green-400: #2d8657;
+  --color-ng-green-500: #26734a;
+  --color-ng-green-600: #20603e;
+  --color-ng-green-700: #194d32;
+  --color-ng-green-800: #133925;
+  --color-ng-green-900: #0d2619;
+  --color-ng-orange: #f4900a;
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --background: #fafafa;
+  --foreground: #1f201e;
+  --card: #fdfdfd;
+  --card-foreground: #1f201e;
+  --popover: #fdfdfd;
+  --popover-foreground: #1f201e;
+  --primary: #2d8657;
+  --primary-foreground: #fdfdfd;
+  --secondary: #ecf9f2;
+  --secondary-foreground: #20603e;
+  --muted: #ededed;
+  --muted-foreground: #6a6b67;
+  --accent: #d9f2e5;
+  --accent-foreground: #194d32;
+  --destructive: #b42318;
+  --border: #dcdcdb;
+  --input: #dcdcdb;
+  --ring: #2d8657;
+  --chart-1: #40bf7c;
+  --chart-2: #39ac70;
+  --chart-3: #2d8657;
+  --chart-4: #20603e;
+  --chart-5: #133925;
+  --radius: 0.5rem;
+  --sidebar: #fdfdfd;
+  --sidebar-foreground: #1f201e;
+  --sidebar-primary: #2d8657;
+  --sidebar-primary-foreground: #fdfdfd;
+  --sidebar-accent: #ecf9f2;
+  --sidebar-accent-foreground: #194d32;
+  --sidebar-border: #dcdcdb;
+  --sidebar-ring: #2d8657;
+  --font-display: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, serif;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    background: var(--background);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans-body), sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: #c6ecd8;
+    color: #0d2619;
+  }
+
+  a,
+  summary {
+    @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .section-title {
+    @apply mt-4 max-w-3xl font-heading text-4xl leading-[1.02] font-semibold tracking-[-0.045em] text-balance sm:text-5xl lg:text-6xl;
+  }
+
+  .section-lede {
+    @apply mt-6 max-w-xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8;
+  }
+
+  .figure-title {
+    @apply font-heading text-xl font-semibold tracking-tight;
+  }
+
+  .annotation {
+    @apply min-w-0;
+  }
+
+  .annotation-line {
+    @apply mb-3 block h-px w-full origin-left bg-ng-green-300;
+  }
+
+  .annotation-label {
+    @apply text-xs leading-5 text-foreground;
+  }
+
+  .annotation-label > span {
+    @apply mb-1 block font-mono text-[9px] uppercase tracking-[0.14em] text-muted-foreground;
+  }
+
+  .stat-cell {
+    @apply flex flex-col gap-2 py-6 sm:px-8 sm:py-8;
+  }
+
+  .stat-cell + .stat-cell {
+    @apply border-t border-border sm:border-t-0 sm:border-l;
+  }
+
+  .stat-cell strong {
+    @apply font-heading text-5xl leading-none font-semibold tracking-tighter tabular-nums sm:text-6xl;
+  }
+
+  .stat-cell span {
+    @apply font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground;
+  }
+}
+
+.hero-surface {
+  background-color: var(--color-ng-green-600);
+  background-image:
+    linear-gradient(
+      160deg,
+      rgb(13 38 25 / 58%),
+      rgb(13 38 25 / 28%) 45%,
+      rgb(13 38 25 / 55%)
+    ),
+    url("/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.control-sweep {
+  background-image: linear-gradient(
+    105deg,
+    transparent 30%,
+    rgb(217 242 229 / 75%) 50%,
+    transparent 70%
+  );
+}
+
+.evidence {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.evidence-highlight,
+.hero-quote-highlight {
+  background-image: linear-gradient(#d9f2e5, #d9f2e5);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.coverage-missed {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 7px,
+      rgb(237 237 237 / 90%) 7px,
+      rgb(237 237 237 / 90%) 8px
+    ),
+    var(--card);
+}
+
+.case-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.case-chevron {
+  transform: rotate(45deg);
+  transition: transform 180ms ease;
+}
+
+.case-details[open] .case-chevron {
+  transform: rotate(225deg);
+}
+
+@keyframes ruler-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes tick-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes stamp-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hl-sweep {
+  from {
+    background-size: 0% 100%;
+  }
+
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes line-draw {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.hero-copy {
+  animation: reveal-up 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-rfp-endpoint {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: stamp-in 400ms cubic-bezier(0.22, 1, 0.36, 1) 80ms both;
+}
+
+.hero-rfp-label {
+  animation: stamp-in 400ms cubic-bezier(0.22, 1, 0.36, 1) 140ms both;
+}
+
+.hero-ruler-line {
+  stroke-dasharray: 100;
+  animation: ruler-draw 1.2s cubic-bezier(0.22, 1, 0.36, 1) 350ms both;
+}
+
+.hero-ruler-tick {
+  animation: tick-in 320ms ease-out
+    calc(480ms + var(--i) * 90ms) both;
+}
+
+.hero-board-endpoint {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: stamp-in 420ms cubic-bezier(0.22, 1, 0.36, 1) 1550ms both;
+}
+
+.hero-board-label {
+  animation: stamp-in 420ms cubic-bezier(0.22, 1, 0.36, 1) 1600ms both;
+}
+
+.hero-dimension {
+  animation: stamp-in 460ms cubic-bezier(0.22, 1, 0.36, 1) 1700ms both;
+}
+
+.hero-quote-highlight {
+  animation: hl-sweep 900ms ease-out 2050ms both;
+}
+
+[data-inview="true"] .evidence-highlight {
+  animation: hl-sweep 900ms ease-out both;
+}
+
+[data-inview="true"] .annotation-line {
+  animation: line-draw 400ms ease-out
+    calc(900ms + var(--i, 0) * 150ms) both;
+}
+
+[data-inview="true"] .annotation:nth-child(2) .annotation-line {
+  animation-delay: 1050ms;
+}
+
+[data-inview="true"] .annotation:nth-child(3) .annotation-line {
+  animation-delay: 1200ms;
+}
+
+[data-inview="true"] .annotation-label {
+  animation: reveal-up 350ms ease-out 1100ms both;
+}
+
+[data-inview="true"] .annotation:nth-child(2) .annotation-label {
+  animation-delay: 1250ms;
+}
+
+[data-inview="true"] .annotation:nth-child(3) .annotation-label {
+  animation-delay: 1400ms;
+}
+
+[data-inview="true"] .outcome-chip {
+  animation: reveal-up 450ms ease-out 1550ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viz *,
+  .viz *::before,
+  .viz *::after,
+  .hero-copy,
+  .hero-quote-highlight {
+    animation: none !important;
+    transition: none !important;
+  }
 }
