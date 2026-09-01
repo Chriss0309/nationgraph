@@ -1,0 +1,46 @@
+Official source: https://go.boarddocs.com/fl/sdhc/Board.nsf/goto?open&id=C7WJZZ4F65DF
+Scraped from the public BoardDocs agenda on 2026-08-26. Contact details and statutory boilerplate are omitted.
+
+Agenda Item Details
+Meeting
+Nov 16, 2021 - Reorganization School Board Meeting
+Category
+B. Consent Agenda
+Subject
+6.05 Piggyback (PGB) #21144-PGB-LG of the Agreement between Carahsoft Technologies and Region 4 Educational Service Center - Texas (Region 4 ESC) - Agreement R191902 Educational Software Solutions and Services (Information Technology)
+Type
+Action (Consent)
+Recommended Action
+Approve piggyback agreement #21144-PGB-LG of the agreement between Carahsoft Technologies and Region 4 ESC - Agreement R191902 Educational Software Solutions and Services.
+
+DESCRIPTION:
+
+Endpoint detection and response (EDR) will detect threats in our networking environment and respond to them. It can analyze the nature of the threat and give the Information Technology Services information regarding how the threat was initiated, which parts of the network it has attacked, what it is currently doing, and how to stop the attack altogether. An EDR solution further protects the network by containing the threat to prevent it from spreading. EDR can protect our organization from threats, whether we use a fully in-house system or incorporate a cloud platform. The information provided is critical and aids in mitigation/remediation in the moments before and after an attack and is an integral part the District's updated security posture.
+
+The initial term of this agreement is from May 1, 2020, through April 30, 2023, with two (2) additional one (1) year renewal periods. This agreement may be terminated at any time. This contract will be reviewed and evaluated and may be renewed by the Superintendent.
+
+GAP ANALYSIS:
+
+The District currently has limited endpoint protection on its devices. This software would examine potential threats and mitigate problems before they occur. If an issue does occur, the EDR software assists in the remediation process and aids in protecting data on the device(s) impacted. This approach helps to remove risk associated with malware, ransomware, and other potentially malicious and costly attacks.
+
+PREVIOUS OUTCOMES:
+
+The District does not currently have this level of protection on its devices.
+
+EXPECTED OUTCOMES:
+
+Upon approval, support for the EDR software will be implemented on district-owned employee devices and servers.
+
+RECOMMENDATION:
+
+Approve the PGB #21144-DST-LG Educational Software Solutions and Services.
+
+FINANCIAL HISTORIC IMPACT:
+
+2021-22 Financial Impact - Proposed Cost: $294,675
+
+FINANCIAL IMPACT:
+
+Revenue Source: General Fund
+Expense Account # 101-9750-6953-620-6500-691
+Amount: $294,675/3 year coverage

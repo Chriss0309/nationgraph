@@ -1,0 +1,44 @@
+Official source: https://go.boarddocs.com/fl/sdhc/Board.nsf/goto?open&id=C6MMUP5CE8D3
+Scraped from the public BoardDocs agenda on 2026-08-26. Contact details and statutory boilerplate are omitted.
+
+Agenda Item Details
+Meeting
+Oct 05, 2021 - Regular School Board Meeting
+Category
+B. Consent Agenda
+Subject
+6.19 Piggyback (PGB) #21144-DST-LG of the Agreement between Carahsoft Technologies and Region 4 Educational Service Center - Texas (Region 4 ESC) - Agreement R191902 Educational Software Solutions and Services (Information Technology Services) WITHDRAWN
+Type
+Action (Consent)
+Recommended Action
+Approve PGB #21144-DST-LG Educational Software Solutions and Services with Carahsoft Technologies
+
+DESCRIPTION:
+
+Endpoint detection and response (EDR) will detect threats in your networking environment and respond to them. It can analyze the nature of the threat and give ITS information regarding how the threat was initiated, which parts of your network it has attacked, what it is currently doing, and how to stop the attack altogether. An EDR solution further protects your network by containing the threat to prevent it from spreading. EDR can protect your organization from threats, whether you use a fully in-house system or incorporate a cloud platform. The information provided is critical and aids in mitigation/remediation in the moments before and after an attack, and is an integral part the district's updated security posture.
+
+The initial term of this agreement is from May 1, 2020 through April 30, 2023, with two (2) additional one (1) year renewal periods. This agreement may be terminated before the next year's license purchase. This contract will be reviewed and evaluated and may be renewed by the Superintendent.
+
+GAP ANALYSIS:
+
+The District requires vendors to provide EDR software for threat mitigation and detection.
+
+PREVIOUS OUTCOMES:
+
+This is a new agreement for this District.
+
+EXPECTED OUTCOMES:
+
+Upon approval, the District requires the vendor to provide the goods and services according to the terms and conditions listed in the agreement. The awarded vendor is:
+
+Carahsoft Technologies
+
+RECOMMENDATION:
+
+Approve PGB #21144-DST-LG.
+
+FINANCIAL IMPACT:
+
+Revenue Source: General Fund
+Expense Account: 101.9750.6953.620.6500.691
+Amount: $295,750/annually
