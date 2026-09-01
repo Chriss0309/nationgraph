@@ -1,0 +1,6 @@
+# data/raw holds hand-saved source documents whose sha256 is recorded in
+# data/source_inventory.csv and re-verified by `research_dataset.py validate`.
+# Git would normalize their CRLF to LF on the way into the object store, so a
+# Linux or macOS clone would check out different bytes and fail that gate.
+# Store them exactly as retrieved.
+data/raw/** -text
