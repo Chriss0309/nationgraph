@@ -17,12 +17,8 @@ export function Receipt({ metrics }: { metrics: DossierMetrics }) {
     <footer className="bg-card">
       <div className="mx-auto w-full max-w-7xl px-5 py-12 sm:px-8 sm:py-16">
         <div className="border-t border-border pt-6 font-mono text-[10px] leading-6 text-muted-foreground sm:text-xs">
-          <p>{countLine}</p>
-          <p>{resultLine}</p>
-          <p>{thresholdLine}</p>
           <p className="mt-4 text-foreground">
-            Built by Christopher Ooi to show, not tell, my interest in joining
-            NationGraph&apos;s engineering team.
+            Built by Chris
           </p>
           <p>
             <a
@@ -30,6 +26,14 @@ export function Receipt({ metrics }: { metrics: DossierMetrics }) {
               className="underline decoration-border underline-offset-4 hover:decoration-primary"
             >
               ooichristopher8@gmail.com
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/Chriss0309/nationgraph"
+              className="underline decoration-border underline-offset-4 hover:decoration-primary"
+            >
+              Here&apos;s the Repo
             </a>
           </p>
         </div>
