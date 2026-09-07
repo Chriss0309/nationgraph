@@ -1,0 +1,815 @@
+{
+  "alachua-county-public-schools-fy-2023-0": {
+    "district": "Alachua County Public Schools | FY 2023",
+    "initiative_name": "Cyber and Information Technology Pathways Grant",
+    "category": "cybersecurity/IT training and equipment",
+    "first_date": "2022-06-07",
+    "last_date": "2022-06-07",
+    "events": [
+      {
+        "date": "2022-06-07",
+        "state": "AUTHORIZATION",
+        "action": "Approved the competitive grant proposal through the consent agenda.",
+        "vendor": null,
+        "amount": 298767.0,
+        "summary": "The board approved a $298,767 cybersecurity and IT pathways grant. Grant funds may support staffing and the purchase of equipment, software, and training.",
+        "evidence": "It would allow for the purchase of equipment, software, training, etc.",
+        "url": "https://go.boarddocs.com/fl/alaco/Board.nsf/Download-AgendaDetailed?open&id=CEAT86684415",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "charlotte-county-public-schools-control-fy-2024-0": {
+    "district": "Charlotte County Public Schools | control FY 2024",
+    "initiative_name": "Data Storage and Backup System",
+    "category": "backup/disaster recovery",
+    "first_date": "2023-02-14",
+    "last_date": "2023-02-14",
+    "events": [
+      {
+        "date": "2023-02-14",
+        "state": "AUTHORIZATION",
+        "action": "Approved a purchase requisition for hard drives, service agreements, and data storage/backup system services.",
+        "vendor": "United Data Technologies, Inc.",
+        "amount": 114431.42,
+        "summary": "The School Board approved the submitted purchase requisition for hard drives, service agreements, and a data storage/backup system. The procurement was approved through the consent agenda.",
+        "evidence": "United Data Technologies, Inc. Hard drives, service agreements, Services & data storage/backup system ITT 37939701007400649 $ 114,431.42",
+        "url": "https://go.boarddocs.com/fla/ccpsfl/Board.nsf/Download-AgendaDetailed?open&id=CKBK58502895",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "citrus-county-school-district-control-fy-2023-0": {
+    "district": "Citrus County School District | control FY 2023",
+    "initiative_name": "Rubrik Backup and Ransomware Protection Renewal",
+    "category": "backup/ransomware protection",
+    "first_date": "2022-06-14",
+    "last_date": "2022-06-14",
+    "events": [
+      {
+        "date": "2022-06-14",
+        "state": "RENEWAL",
+        "action": "Approved a three-year renewal of Rubrik and authorized signing the Rubrik Signature Sheet.",
+        "vendor": "Rubrik",
+        "amount": 185235.29,
+        "summary": "The board approved a three-year renewal of the district’s current Rubrik backup solution. The renewal includes replacement hardware after three years of licensing and provides additional ransomware protection.",
+        "evidence": "Approve the three-year renewal of Rubrik and sign the Rubrik Signature Sheet.",
+        "url": "https://go.boarddocs.com/fl/citrus/Board.nsf/Download-AgendaDetailed?open&id=C3DNDK5E11FB",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "citrus-county-school-district-control-fy-2023-1": {
+    "district": "Citrus County School District | control FY 2023",
+    "initiative_name": "SentinelOne Renewal",
+    "category": "EDR",
+    "first_date": "2022-08-09",
+    "last_date": "2022-08-09",
+    "events": [
+      {
+        "date": "2022-08-09",
+        "state": "RENEWAL",
+        "action": "Approved the renewal of SentinelOne through the consent agenda.",
+        "vendor": "SentinelOne",
+        "amount": 100030.0,
+        "summary": "The board approved renewal of the SentinelOne endpoint detection and response service. The renewal was budgeted through ESSER III ARP funds.",
+        "evidence": "Subject : I. Approve the renewal of Sentinel One Meeting : Aug 9, 2022 - REGULAR SCHOOL BOARD MEETING Category : XV. FINANCE, MIKE MULLEN Type : Action, Action (Consent) Fiscal Impact : Yes Dollar Amount : $100,030.00",
+        "url": "https://go.boarddocs.com/fl/citrus/Board.nsf/Download-AgendaDetailed?open&id=CESR7C6BEF5C",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "citrus-county-school-district-control-fy-2023-2": {
+    "district": "Citrus County School District | control FY 2023",
+    "initiative_name": "Fortinet Firewall Appliance Renewal",
+    "category": "firewall",
+    "first_date": "2022-12-13",
+    "last_date": "2022-12-13",
+    "events": [
+      {
+        "date": "2022-12-13",
+        "state": "RENEWAL",
+        "action": "Approved the three-year renewal of the Fortinet firewall appliance.",
+        "vendor": "Fortinet",
+        "amount": 128955.24,
+        "summary": "The board approved a three-year renewal for the district’s Fortinet firewall appliance. The renewal was budgeted from Project 50100 Technology - General Funds.",
+        "evidence": "Subject : D. Approve the three-year renewal of the firewall appliance FORTINET",
+        "url": "https://go.boarddocs.com/fl/citrus/Board.nsf/Download-AgendaDetailed?open&id=CJWM54587F4E",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "citrus-county-school-district-control-fy-2023-3": {
+    "district": "Citrus County School District | control FY 2023",
+    "initiative_name": "Electrical, Data Communications and Security Products Contract",
+    "category": "security equipment and data communications",
+    "first_date": "2023-01-10",
+    "last_date": "2023-01-10",
+    "events": [
+      {
+        "date": "2023-01-10",
+        "state": "RENEWAL",
+        "action": "Approved renewal of the piggyback OMNIA Partners Cooperative Contract EV2370 with Graybar Electric Company, Inc.",
+        "vendor": "Graybar Electric Company, Inc.",
+        "amount": null,
+        "summary": "The board approved renewal of a cooperative contract for as-needed purchases of electrical, data communications, and security equipment. The renewed contract runs from February 1, 2023 through January 31, 2025, with two additional two-year renewal options.",
+        "evidence": "Request to Approve Renewal of 2020-14P Electrical, Lighting, Data Communications and Security Products Piggyback on the OMNIA Partners Cooperative Contract EV2370.",
+        "url": "https://go.boarddocs.com/fl/citrus/Board.nsf/Download-AgendaDetailed?open&id=CKHPK4649F1B",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "collier-county-public-schools-control-fy-2023-0": {
+    "district": "Collier County Public Schools | control FY 2023",
+    "initiative_name": "Cybersecurity and Privacy Internal Audit",
+    "category": "cybersecurity audit",
+    "first_date": "2022-08-09",
+    "last_date": "2022-08-09",
+    "events": [
+      {
+        "date": "2022-08-09",
+        "state": "AUTHORIZATION",
+        "action": "Approved the statement of work and authorized staff to finalize the contract with RSM US LLC for internal audit services, including cybersecurity.",
+        "vendor": "RSM US LLC",
+        "amount": 165000.0,
+        "summary": "The Board approved a statement of work and authorized contract finalization with RSM US LLC for fiscal year 2022-23 internal audit services covering Information Security and Privacy (Cybersecurity), construction, and stimulus funding. The anticipated cost was $165,000.",
+        "evidence": "Recommended Action : Approve the Statement of Work for performing the internal audit services and authorize staff to finalize the contract with RSM US LLC for services in these areas.",
+        "url": "https://go.boarddocs.com/fl/collier/Board.nsf/Download-AgendaDetailed?open&id=CFMNVT61CF9C",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "desoto-county-school-district-control-fy-2026-0": {
+    "district": "DeSoto County School District | control FY 2026",
+    "initiative_name": "Mini Dome Security Cameras",
+    "category": "video surveillance",
+    "first_date": "2025-08-26",
+    "last_date": "2025-08-26",
+    "events": [
+      {
+        "date": "2025-08-26",
+        "state": "OTHER",
+        "action": "Purchase order submitted for 30 mini dome cameras to be installed by the district IT department.",
+        "vendor": "Fiber Solutions",
+        "amount": null,
+        "summary": "The agenda includes a purchase of 30 mini dome cameras from Fiber Solutions for installation by the district IT department to improve security. No amount is stated.",
+        "evidence": "Purchase of 30 mini dome cameras to be installed by our IT Dept to improve security.",
+        "url": "https://go.boarddocs.com/fl/desoto/Board.nsf/Download-AgendaDetailed?open&id=DJLJ2X4B2308",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "franklin-county-school-district-fy-2024-0": {
+    "district": "Franklin County School District | FY 2024",
+    "initiative_name": "Verkada Cameras and Vape Detection Sensors",
+    "category": "security cameras/sensors",
+    "first_date": "2023-08-31",
+    "last_date": "2023-08-31",
+    "events": [
+      {
+        "date": "2023-08-31",
+        "state": "AUTHORIZATION",
+        "action": "The board approved the Howard Technology Solutions quote for Verkada cameras and sensors with 10-year licenses.",
+        "vendor": "Howard Technology Solutions",
+        "amount": null,
+        "summary": "The district approved a vendor quote for Verkada cameras and sensors, including 10-year licenses, for vape and camera detection. The document does not clearly identify a purchase amount.",
+        "evidence": "Howard Technology Solutions Quote - Verkada Cameras and Sensors with 10 Year Licenses",
+        "url": "https://go.boarddocs.com/fl/franklin/Board.nsf/Download-AgendaDetailed?open&id=CUZHHQ489BB5",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "franklin-county-school-district-fy-2026-0": {
+    "district": "Franklin County School District | FY 2026",
+    "initiative_name": "Linewize Three-Year Renewal",
+    "category": "web filtering",
+    "first_date": "2024-09-19",
+    "last_date": "2024-09-19",
+    "events": [
+      {
+        "date": "2024-09-19",
+        "state": "RENEWAL",
+        "action": "Approved a three-year Linewize renewal quote from Howard Technology Solutions.",
+        "vendor": "Linewize",
+        "amount": null,
+        "summary": "The board approved Howard Technology Solutions Quote No. KH6 1439041.00 for a three-year Linewize renewal. The agenda identifies the item as an action item and marks it approved.",
+        "evidence": "Howard Technology Solutions Quote No. KH6 1439041.00, Linewize 3 Year Renewals",
+        "url": "https://go.boarddocs.com/fl/franklin/Board.nsf/Download-AgendaDetailed?open&id=D8ZQSV6A8294",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "hillsborough-county-public-schools-fy-2023-0": {
+    "district": "Hillsborough County Public Schools | FY 2023",
+    "initiative_name": "CyberLaunch cybersecurity consulting services",
+    "category": "cybersecurity consulting",
+    "first_date": "2022-11-01",
+    "last_date": "2022-11-01",
+    "events": [
+      {
+        "date": "2022-11-01",
+        "state": "AUTHORIZATION",
+        "action": "The agenda requested Board approval of a sole-source Agreement for Technical Services with Arete Solutions Direct, LLC.",
+        "vendor": "Arete Solutions Direct, LLC",
+        "amount": 200000.0,
+        "summary": "HCPS sought to engage Arete Solutions Direct as a technical advisor, subject-matter expert, and program manager for the Cybersecurity and IT Pathways Grant and CyberLaunch initiative. The proposed agreement was funded by the Cybersecurity and Information Technology Pathways Grant.",
+        "evidence": "Recommended Action : Approve Sole Source #22255-SSD-IV ATS with Arete Solutions Direct, LLC.",
+        "url": "https://go.boarddocs.com/fl/sdhc/Board.nsf/Download-AgendaDetailed?open&id=CHDHMD4916D2",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "holmes-district-school-board-control-fy-2026-0": {
+    "district": "Holmes District School Board | control FY 2026",
+    "initiative_name": "Uniti Fiber Internet/Firewall/WAN Services",
+    "category": "firewall",
+    "first_date": "2025-03-11",
+    "last_date": "2025-03-11",
+    "events": [
+      {
+        "date": "2025-03-11",
+        "state": "AUTHORIZATION",
+        "action": "Presented a motion to approve the Uniti Fiber contract for E-Rate 2025 internet, firewall, and WAN services.",
+        "vendor": "Uniti Fiber",
+        "amount": null,
+        "summary": "The board agenda sought authorization for a contract with Uniti Fiber covering internet, firewall, and WAN services under E-Rate 2025. No contract amount was stated.",
+        "evidence": "Approve contract with Uniti Fiber for internet/firewall/WAN services (E-Rate 2025)",
+        "url": "https://go.boarddocs.com/fl/hdsb/Board.nsf/Download-AgendaDetailed?open&id=DDKTCS76C387",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "holmes-district-school-board-control-fy-2026-1": {
+    "district": "Holmes District School Board | control FY 2026",
+    "initiative_name": "ClassLink Subscription Renewal",
+    "category": "IAM/SSO",
+    "first_date": "2025-07-08",
+    "last_date": "2025-07-08",
+    "events": [
+      {
+        "date": "2025-07-08",
+        "state": "RENEWAL",
+        "action": "Presented a motion to approve the ClassLink subscription renewal through a sole-source procurement.",
+        "vendor": "ClassLink",
+        "amount": null,
+        "summary": "The agenda identified a ClassLink subscription renewal and sole-source procurement for board action. The recommended action was approval of the renewal.",
+        "evidence": "Approve ClassLink Subscription Renewal/Sole Source Procurement (M. Baxley)",
+        "url": "https://go.boarddocs.com/fl/hdsb/Board.nsf/Download-AgendaDetailed?open&id=DH4MCJ5A9907",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "jefferson-county-schools-control-fy-2026-0": {
+    "district": "Jefferson County Schools | control FY 2026",
+    "initiative_name": "Fortinet Support Renewal",
+    "category": "firewall",
+    "first_date": "2024-07-08",
+    "last_date": "2024-07-08",
+    "events": [
+      {
+        "date": "2024-07-08",
+        "state": "AUTHORIZATION",
+        "action": "Board consideration and approval of Fortinet firewall hardware, support, management licenses, switches, and related redundancy equipment.",
+        "vendor": "Fortinet",
+        "amount": null,
+        "summary": "The agenda requests approval of an estimate for redundant and replacement firewalls at multiple district locations, including one year of support and management licensing. The estimate also includes switches and phone-system devices.",
+        "evidence": "This estimate is for a redundant firewall at the main campus with 1 year of support and management license. A replacement firewall for the bus barn",
+        "url": "https://go.boarddocs.com/fl/jcsd/Board.nsf/Download-AgendaDetailed?open&id=D633DC065883",
+        "source_type": "board_agenda_packet"
+      },
+      {
+        "date": "2024-07-08",
+        "state": "RENEWAL",
+        "action": "Board consideration and approval of renewed Fortinet support for existing switches and phone systems.",
+        "vendor": "Fortinet",
+        "amount": null,
+        "summary": "The agenda requests approval to renew support for current switches and phone systems at all sites. The item states that support is important because several switches are not working.",
+        "evidence": "This estimate is to renew the support on all current switches and the phone systems at all sites. This is important as there are several switches right now that are not working.",
+        "url": "https://go.boarddocs.com/fl/jcsd/Board.nsf/Download-AgendaDetailed?open&id=D633DC065883",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "lake-county-schools-control-fy-2026-0": {
+    "district": "Lake County Schools | control FY 2026",
+    "initiative_name": "Cohesity",
+    "category": "backup and data protection",
+    "first_date": "2024-06-10",
+    "last_date": "2024-06-10",
+    "events": [
+      {
+        "date": "2024-06-10",
+        "state": "AUTHORIZATION",
+        "action": "The Board approved the consent agenda item for Cohesity.",
+        "vendor": "Cohesity",
+        "amount": 223632.27,
+        "summary": "The agenda identifies a Cohesity technology purchase or service funded from the General Fund IT Budget. The consent agenda motion was approved.",
+        "evidence": "Subject : 8.23 Cohesity (Duane Weeks, Chief of Technology & Data Systems) Fiscal Impact: $223,632.27 from the General Fund- IT Budget",
+        "url": "https://go.boarddocs.com/fla/lake/Board.nsf/Download-AgendaDetailed?open&id=D52FK53F71E4",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "lake-county-schools-control-fy-2026-1": {
+    "district": "Lake County Schools | control FY 2026",
+    "initiative_name": "Wireless Access Point Replacement",
+    "category": "Network infrastructure",
+    "first_date": "2025-01-13",
+    "last_date": "2025-01-13",
+    "events": [
+      {
+        "date": "2025-01-13",
+        "state": "AWARD",
+        "action": "Approved the award of RFP #0708E-24C.2 for wireless access points to CDWG.",
+        "vendor": "CDW Government LLC (CDWG)",
+        "amount": 1036179.9,
+        "summary": "The Board approved awarding the wireless access point replacement bid to CDWG. The purchase will replace outdated access points and is expected to receive approximately 80% reimbursement through the E-Rate program.",
+        "evidence": "CDW Government LLC (CDWG) won the bid and the district will receive an estimated discount of 80% through USAC’s E-Rate program",
+        "url": "https://go.boarddocs.com/fla/lake/Board.nsf/Download-AgendaDetailed?open&id=DBLGD2433CF4",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "lake-county-schools-control-fy-2026-2": {
+    "district": "Lake County Schools | control FY 2026",
+    "initiative_name": "Cybersecurity Maturity Assessment",
+    "category": "cybersecurity assessment",
+    "first_date": "2025-03-24",
+    "last_date": "2025-03-24",
+    "events": [
+      {
+        "date": "2025-03-24",
+        "state": "AUTHORIZATION",
+        "action": "Approved the cybersecurity Statement of Work with RSM US LLP as part of three internal auditing services SOWs.",
+        "vendor": "RSM US LLP",
+        "amount": 157500.0,
+        "summary": "The Board approved three Statements of Work under its internal auditing services agreement with RSM US LLP, including a cybersecurity maturity assessment. The listed fiscal impact for the SOW package is $157,500.00 from the Internal Audit Budget.",
+        "evidence": "Per Boards request Statement of Work (SOW) Cybersecurity, Competitive Procurement and Instructional Materials Utilization.",
+        "url": "https://go.boarddocs.com/fla/lake/Board.nsf/Download-AgendaDetailed?open&id=DDYRNG6ECF3A",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "lake-county-schools-control-fy-2026-3": {
+    "district": "Lake County Schools | control FY 2026",
+    "initiative_name": "ClassLink SSO and Rostering Renewal",
+    "category": "Identity and access management (SSO)",
+    "first_date": "2025-10-27",
+    "last_date": "2025-10-27",
+    "events": [
+      {
+        "date": "2025-10-27",
+        "state": "RENEWAL",
+        "action": "Approved renewal of the ClassLink software solution for the 2025–2026 school year.",
+        "vendor": "ClassLink",
+        "amount": 155120.4,
+        "summary": "The Board approved renewing ClassLink, the district’s single sign-on and rostering platform, for the 2025–2026 school year. The renewal supports continued identity and access management for educational software.",
+        "evidence": "This item is for the renewal of the ClassLink software solution for the 2025–2026 school year in the amount of $155,120.40.",
+        "url": "https://go.boarddocs.com/fla/lake/Board.nsf/Download-AgendaDetailed?open&id=DM7NVH61C6EE",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "leon-county-schools-control-fy-2026-0": {
+    "district": "Leon County Schools | control FY 2026",
+    "initiative_name": "Managed Detection and Response (MDR)",
+    "category": "MDR/SOC",
+    "first_date": "2024-11-19",
+    "last_date": "2024-11-19",
+    "events": [
+      {
+        "date": "2024-11-19",
+        "state": "AUTHORIZATION",
+        "action": "The board was asked to approve a three-year agreement for CrowdStrike MDR services, procured through World Wide Technology.",
+        "vendor": "World Wide Technology",
+        "amount": 188455.48,
+        "summary": "The agenda proposed purchasing CrowdStrike Managed Detection and Response for 24/7 monitoring, threat detection, and response. The three-year agreement would be procured through World Wide Technology for $188,455.48.",
+        "evidence": "The Superintendent recommends approval of the 3-year agreement for MDR services.",
+        "url": "https://go.boarddocs.com/fla/leon/Board.nsf/Download-AgendaDetailed?open&id=D9TG4T42094F",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "leon-county-schools-control-fy-2026-1": {
+    "district": "Leon County Schools | control FY 2026",
+    "initiative_name": "Security Patch Management and Operating Systems Support",
+    "category": "patch management",
+    "first_date": "2025-05-27",
+    "last_date": "2025-05-27",
+    "events": [
+      {
+        "date": "2025-05-27",
+        "state": "RENEWAL",
+        "action": "Approved renewal of the Standard Services Contract for Robert Olmstead for the 2025-2026 school year.",
+        "vendor": "Robert Olmstead",
+        "amount": 84000.0,
+        "summary": "The renewed contract covers operating-systems engineering and district technology support, including distributing and installing security patches and software updates across schools and department sites.",
+        "evidence": "The services provided include warranty repairs, distributing and installing security patches and software updates, updating operating systems, imaging new computers",
+        "url": "https://go.boarddocs.com/fla/leon/Board.nsf/Download-AgendaDetailed?open&id=DEVGC5431B7C",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "leon-county-schools-control-fy-2026-2": {
+    "district": "Leon County Schools | control FY 2026",
+    "initiative_name": "Safety and Security of School Buildings Grant",
+    "category": "security cameras and access control",
+    "first_date": "2026-02-24",
+    "last_date": "2026-02-24",
+    "events": [
+      {
+        "date": "2026-02-24",
+        "state": "AUTHORIZATION",
+        "action": "Approved the 2026 Safety and Security of School Buildings Grant.",
+        "vendor": null,
+        "amount": 193949.0,
+        "summary": "The Board approved a Florida Department of Education grant to improve school cameras and access control. The project will expand surveillance coverage and harden facilities against targeted violence.",
+        "evidence": "This $193,949.00 grant will enhance school safety by improving cameras in schools and access control to further hardening facilities to prevent acts of target violence on school campuses.",
+        "url": "https://go.boarddocs.com/fla/leon/Board.nsf/Download-AgendaDetailed?open&id=DQGJUQ4EE04E",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "leon-county-schools-control-fy-2026-3": {
+    "district": "Leon County Schools | control FY 2026",
+    "initiative_name": "Microsoft User Licensing and Enterprise Services Renewal",
+    "category": "enterprise cybersecurity services",
+    "first_date": "2026-02-24",
+    "last_date": "2026-02-24",
+    "events": [
+      {
+        "date": "2026-02-24",
+        "state": "RENEWAL",
+        "action": "Approved the annual renewal of Microsoft user licensing and related enterprise services.",
+        "vendor": "Microsoft",
+        "amount": 857378.13,
+        "summary": "The Board approved renewal of Microsoft licensing and enterprise services for 2026–2027. The agreement supports district operations, cybersecurity, data analytics, and secure productivity and collaboration tools.",
+        "evidence": "The Superintendent recommends approval of the annual renewal of Microsoft user licensing and related enterprise services.",
+        "url": "https://go.boarddocs.com/fla/leon/Board.nsf/Download-AgendaDetailed?open&id=DQGJUQ4EE04E",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "okaloosa-county-school-district-fy-2026-0": {
+    "district": "Okaloosa County School District | FY 2026",
+    "initiative_name": "Pryor Security Camera Upgrades",
+    "category": "security cameras",
+    "first_date": "2024-12-09",
+    "last_date": "2024-12-09",
+    "events": [
+      {
+        "date": "2024-12-09",
+        "state": "AUTHORIZATION",
+        "action": "The Board approved the amended agenda adding TelaForce LLC Task Order #212 for Pryor security camera upgrades.",
+        "vendor": "TelaForce LLC",
+        "amount": null,
+        "summary": "The meeting agenda was amended to add a task order with TelaForce LLC for security camera upgrades at Pryor. The task order was included in the consent agenda approved by the Board.",
+        "evidence": "added item 7.24 TelaForce LLC Task Order # 212 for Pryor Security Camera Upgrades, at the request of Dustin Keith, Specialist, Seat Management;",
+        "url": "https://go.boarddocs.com/fl/okaloosa/Board.nsf/Download-AgendaDetailed?open&id=D7AS4L70D337",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "okaloosa-county-school-district-fy-2026-1": {
+    "district": "Okaloosa County School District | FY 2026",
+    "initiative_name": "IT Seat Management Outsourcing",
+    "category": "IT infrastructure and security management",
+    "first_date": "2025-01-27",
+    "last_date": "2025-01-27",
+    "events": [
+      {
+        "date": "2025-01-27",
+        "state": "AWARD",
+        "action": "Approved a five-year IT seat management outsourcing agreement with TelaForce, LLC, following RFP 24-03 and negotiations with the highest-ranked respondent.",
+        "vendor": "TelaForce, LLC",
+        "amount": 9400000.0,
+        "summary": "The Board approved TelaForce’s agreement to provide IT seat management products and services from February 1, 2025, through January 31, 2030. The contract includes network, management, and security services alongside hardware and software support.",
+        "evidence": "This comprehensive contract covers hardware, essential software, network, management, security, and other technological needs of all our schools and District offices.",
+        "url": "https://go.boarddocs.com/fl/okaloosa/Board.nsf/Download-AgendaDetailed?open&id=DD8S4370CC5A",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "okaloosa-county-school-district-fy-2026-2": {
+    "district": "Okaloosa County School District | FY 2026",
+    "initiative_name": "Destin High School Cybersecurity Program Equipment",
+    "category": "cybersecurity program equipment",
+    "first_date": "2025-11-10",
+    "last_date": "2025-11-10",
+    "events": [
+      {
+        "date": "2025-11-10",
+        "state": "AUTHORIZATION",
+        "action": "Approved the 2025-2026 Secondary Workforce Development Capitalization Incentive Program grant as a funding source for cybersecurity equipment and supplies.",
+        "vendor": null,
+        "amount": 210778.0,
+        "summary": "The board considered approval of a $210,778 CAP Grant for fiscal year 2025-2026. The grant will fund equipment and supplies for the Cybersecurity Program at Destin High School, along with a separate welding lab project.",
+        "evidence": "The Secondary Workforce Development Capitalization Incentive Program (CAP Grant) will be used as a funding source to purchase equipment and supplies for the Cybersecurity Program at Destin High School",
+        "url": "https://go.boarddocs.com/fl/okaloosa/Board.nsf/Download-AgendaDetailed?open&id=DN8FXK41438C",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-indian-river-county-fy-2023-0": {
+    "district": "School District of Indian River County | FY 2023",
+    "initiative_name": "E-Rate Category 2 Firewall Service",
+    "category": "firewall",
+    "first_date": "2022-03-14",
+    "last_date": "2022-03-14",
+    "events": [
+      {
+        "date": "2022-03-14",
+        "state": "AUTHORIZATION",
+        "action": "Approved the 2022-2023 FCC E-Rate Category 2 procurement request, including firewall service; no vendor was selected.",
+        "vendor": null,
+        "amount": 160000.0,
+        "summary": "The board approved the E-Rate Category 2 request covering a proposal for network equipment and services, including firewall service. The estimated retail cost was $727,013.33, with an estimated district cost of approximately $160,000 after reimbursement.",
+        "evidence": "The submitted proposal includes switches, wireless access points, UPS, firewall service, and necessary software and licenses. A weighting system, in which price is the greatest factor, will determine the proposal presented to the Board.",
+        "url": "https://go.boarddocs.com/fl/ircs/Board.nsf/Download-AgendaDetailed?open&id=CAKTCL72DC01",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-indian-river-county-fy-2023-1": {
+    "district": "School District of Indian River County | FY 2023",
+    "initiative_name": "GoGuardian Teacher classroom monitoring",
+    "category": "student device monitoring",
+    "first_date": "2022-06-13",
+    "last_date": "2022-06-13",
+    "events": [
+      {
+        "date": "2022-06-13",
+        "state": "AUTHORIZATION",
+        "action": "Approved procurement of GoGuardian Teacher for districtwide classroom monitoring and web-access controls.",
+        "vendor": "GoGuardian",
+        "amount": 72250.0,
+        "summary": "The Board approved GoGuardian Teacher after Technology Services evaluated seven cloud-compatible classroom monitoring products and staff and teachers selected GoGuardian during pilot trials. The purchase was authorized for up to $72,250.00.",
+        "evidence": "r to GoGuardian in the total amount of up to $72,250.00. GoGuardian Teacher is designed to support effective teaching strategies for exploration, focus, and connection",
+        "url": "https://go.boarddocs.com/fl/ircs/Board.nsf/Download-AgendaDetailed?open&id=CBHU2R79FBE5",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-indian-river-county-fy-2024-0": {
+    "district": "School District of Indian River County | FY 2024",
+    "initiative_name": "GoGuardian Teacher",
+    "category": "classroom monitoring/web filtering",
+    "first_date": "2023-06-12",
+    "last_date": "2023-06-12",
+    "events": [
+      {
+        "date": "2023-06-12",
+        "state": "AUTHORIZATION",
+        "action": "Requested authority for the Superintendent to issue a purchase order.",
+        "vendor": "GoGuardian",
+        "amount": 72250.0,
+        "summary": "The district requested authorization to purchase GoGuardian Teacher for Chromebook screen monitoring, internet access controls, and website restrictions. The requested purchase amount is up to $72,250.00.",
+        "evidence": "This request is to grant the authority for the Superintendent to issue a purchase order to GoGuardian in the total amount of up to $72,250.00.",
+        "url": "https://go.boarddocs.com/fl/ircs/Board.nsf/Download-AgendaDetailed?open&id=CK5L4Z548B4B",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-indian-river-county-fy-2025-0": {
+    "district": "School District of Indian River County | FY 2025",
+    "initiative_name": "FCC E-Rate Category 2 Network and Firewall Purchases",
+    "category": "firewall and network infrastructure",
+    "first_date": "2024-02-12",
+    "last_date": "2024-02-12",
+    "events": [
+      {
+        "date": "2024-02-12",
+        "state": "SOLICITATION",
+        "action": "The district submitted an FCC E-Rate purchase request and will conduct an RFP process to select among proposals for network equipment, firewall service, software, and licenses.",
+        "vendor": null,
+        "amount": 300000.0,
+        "summary": "The district is pursuing an FCC E-Rate Category 2 procurement through an RFP and mandatory proposal window. The district cost after discounts is estimated not to exceed $300,000.",
+        "evidence": "The submitted proposals will include switches, network optics, UPS, firewall service, and necessary software and licenses.",
+        "url": "https://go.boarddocs.com/fl/ircs/Board.nsf/Download-AgendaDetailed?open&id=CXSLUM582F3D",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-indian-river-county-fy-2026-0": {
+    "district": "School District of Indian River County | FY 2026",
+    "initiative_name": "Structured Cabling and Security Infrastructure Contract Extension",
+    "category": "security infrastructure/network cabling",
+    "first_date": "2025-03-10",
+    "last_date": "2025-03-10",
+    "events": [
+      {
+        "date": "2025-03-10",
+        "state": "RENEWAL",
+        "action": "The district is seeking approval to extend the existing as-needed structured cabling agreements through the 2025-2026 school year.",
+        "vendor": "Gerelcom Inc. and Complete Alarm Inc.",
+        "amount": null,
+        "summary": "The extended contracts would support installation of security infrastructure, including cameras, network cables, and licenses, as well as testing, repair, and upgrades to district network infrastructure. The district plans to use School Hardening Grant funds for the security infrastructure.",
+        "evidence": "The Security and Emergency Operations and Technology Services departments are seeking to extend the contract with Gerelcrom and Complete Alarm for the 2025-2026 school year.",
+        "url": "https://go.boarddocs.com/fl/ircs/Board.nsf/Download-AgendaDetailed?open&id=DBLLQR57B321",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "school-district-of-lee-county-fy-2026-0": {
+    "district": "School District of Lee County | FY 2026",
+    "initiative_name": "Cybersecurity Incident Response Audit",
+    "category": "cybersecurity audit",
+    "first_date": "2024-09-17",
+    "last_date": "2024-09-17",
+    "events": [
+      {
+        "date": "2024-09-17",
+        "state": "AUTHORIZATION",
+        "action": "Approved the Statement of Work with RSM US LLP for the FY 2024-2025 internal audit plan, which includes cybersecurity incident response.",
+        "vendor": "RSM US LLP",
+        "amount": 265000.0,
+        "summary": "The Board approved RSM US LLP’s Statement of Work for internal auditing services for fiscal year 2024-2025. The approved audit plan includes cybersecurity incident response, with total SOW costs not to exceed $265,000.00.",
+        "evidence": "The proposed audit plan includes: Internal Audits/Assistance Capital Planning Cybersecurity Incident Response Facilities Maintenance Exception Student Education",
+        "url": "https://go.boarddocs.com/fl/lee/Board.nsf/Download-AgendaDetailed?open&id=D4FRX46E610A",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "st-lucie-public-schools-fy-2026-0": {
+    "district": "St. Lucie Public Schools | FY 2026",
+    "initiative_name": "Microsoft Defender for Endpoint Protection",
+    "category": "EDR",
+    "first_date": "2024-05-14",
+    "last_date": "2024-05-14",
+    "events": [
+      {
+        "date": "2024-05-14",
+        "state": "RENEWAL",
+        "action": "The Board approved the 2024-2025 renewal enrollment agreement for Microsoft Defender Endpoint Protection services.",
+        "vendor": "Microsoft",
+        "amount": 273600.0,
+        "summary": "The renewal continues Microsoft Defender Endpoint/Threat Protection coverage for 40,000 student devices. The purchase was budgeted from current 2023-2024 funding.",
+        "evidence": "This 2024-2025 renewal allows for the continuation of Microsoft's Defender Endpoint/Threat Protection agent for 40,000 student devices. The Microsoft Defender Endpoint subscription will be $273,600.00",
+        "url": "https://go.boarddocs.com/fl/stlucie/Board.nsf/Download-AgendaDetailed?open&id=D47M6G552932",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "st-lucie-public-schools-fy-2026-1": {
+    "district": "St. Lucie Public Schools | FY 2026",
+    "initiative_name": "District Safety and Security Improvements",
+    "category": "school security technology",
+    "first_date": "2024-09-10",
+    "last_date": "2024-09-10",
+    "events": [
+      {
+        "date": "2024-09-10",
+        "state": "BUDGET",
+        "action": "Approved the 2024-2025 district safety and security assessment and identified security projects for budget prioritization and potential state grant funding.",
+        "vendor": null,
+        "amount": null,
+        "summary": "The assessment report includes recommendations for security improvements, including technology and facility projects. The district plans to prioritize projects for budget purposes and apply for the 2024-2025 FLDOE Safety and Security of School Buildings Grant.",
+        "evidence": "The content of this report contains recommendations for Security improvements that will be reviewed by the Best Practices Security Committee, which is composed of district staff to determine priorities and funding requirements for budgetary purposes.",
+        "url": "https://go.boarddocs.com/fl/stlucie/Board.nsf/Download-AgendaDetailed?open&id=D85N5C5E3C7E",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "st-lucie-public-schools-fy-2026-2": {
+    "district": "St. Lucie Public Schools | FY 2026",
+    "initiative_name": "HPE/Cohesity Backup Protection Subscription Renewal",
+    "category": "backup and data protection",
+    "first_date": "2025-10-14",
+    "last_date": "2025-10-14",
+    "events": [
+      {
+        "date": "2025-10-14",
+        "state": "RENEWAL",
+        "action": "Approved the 2025-2028 HPE/Cohesity backup subscription renewal through the consent agenda.",
+        "vendor": "HPE/Cohesity",
+        "amount": 158906.4,
+        "summary": "The Board approved a renewal purchase agreement for the HPE/Cohesity backup solution supporting critical District infrastructure. Funding for 2025-2026 is $158,906.40.",
+        "evidence": "This purchase agreement provides for the 2025-2028 HPE/Cohesity D380 subscription renewal. Cost for 2025-2026 funding is $158,906.40",
+        "url": "https://go.boarddocs.com/fl/stlucie/Board.nsf/Download-AgendaDetailed?open&id=DLCHZH4AEC6D",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "sumter-county-school-district-fy-2026-0": {
+    "district": "Sumter County School District | FY 2026",
+    "initiative_name": "ManageEngine Patch Manager Plus Subscription",
+    "category": "patch management",
+    "first_date": "2025-12-09",
+    "last_date": "2025-12-09",
+    "events": [
+      {
+        "date": "2025-12-09",
+        "state": "RENEWAL",
+        "action": "Approved the 2025-26 subscription renewal.",
+        "vendor": "ManageEngine",
+        "amount": 21965.0,
+        "summary": "The board approved renewal of the ManageEngine Patch Manager Plus subscription for 2025-26. The system manages Microsoft and third-party patches and updates.",
+        "evidence": "Renewal subscription for 25-26. Patch Manager Plus is an on premise management system to control Microsoft and third party patches and updates.",
+        "url": "https://go.boarddocs.com/fla/scsfl/Board.nsf/Download-AgendaDetailed?open&id=DNJM3A58E86D",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "walton-county-school-district-fy-2026-0": {
+    "district": "Walton County School District | FY 2026",
+    "initiative_name": "Cyber Security Solution 2",
+    "category": "cybersecurity solution",
+    "first_date": "2024-06-18",
+    "last_date": "2024-06-18",
+    "events": [
+      {
+        "date": "2024-06-18",
+        "state": "DISCUSSION",
+        "action": "The board discussed Cyber Security & Solution 1 in closed executive session.",
+        "vendor": null,
+        "amount": null,
+        "summary": "The agenda lists a closed executive-session discussion of a cybersecurity solution. No vendor, amount, approval, solicitation, or award is identified.",
+        "evidence": "Subject : 1.01 Discussion of Cyber Security & Solution 1 (H. Martin)",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=D5XL2T5201FB",
+        "source_type": "board_agenda_packet"
+      },
+      {
+        "date": "2024-06-18",
+        "state": "DISCUSSION",
+        "action": "The board discussed Cyber Security & Solution 2 in closed executive session.",
+        "vendor": null,
+        "amount": null,
+        "summary": "The agenda lists a separate closed executive-session discussion of a second cybersecurity solution. No vendor, amount, approval, solicitation, or award is identified.",
+        "evidence": "Subject : 1.02 Discussion of Cyber Security & Solution 2 (H. Martin)",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=D5XL2T5201FB",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "walton-county-school-district-fy-2026-1": {
+    "district": "Walton County School District | FY 2026",
+    "initiative_name": "Cyber Security & Solution 2",
+    "category": "cybersecurity service",
+    "first_date": "2024-06-27",
+    "last_date": "2024-06-27",
+    "events": [
+      {
+        "date": "2024-06-27",
+        "state": "AUTHORIZATION",
+        "action": "Approved Cyber Security & Solution 1.",
+        "vendor": null,
+        "amount": 38463.36,
+        "summary": "The school board approved Cyber Security & Solution 1 as a budgeted technology purchase funded through General Operating funds. The agenda does not identify a vendor.",
+        "evidence": "Approval of Cyber Security & Solution 1 (H. Martin)",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=D5HJ7J4BCF46",
+        "source_type": "board_agenda_packet"
+      },
+      {
+        "date": "2024-06-27",
+        "state": "AUTHORIZATION",
+        "action": "Approved Cyber Security & Solution 2.",
+        "vendor": null,
+        "amount": 154133.13,
+        "summary": "The school board approved Cyber Security & Solution 2 as a budgeted technology purchase funded through General Operating funds. The agenda does not identify a vendor.",
+        "evidence": "Approval of Cyber Security & Solution 2 (H. Martin)",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=D5HJ7J4BCF46",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "walton-county-school-district-fy-2026-2": {
+    "district": "Walton County School District | FY 2026",
+    "initiative_name": "Fortinet Support Coterm & Renewal",
+    "category": "firewall",
+    "first_date": "2024-10-15",
+    "last_date": "2024-10-15",
+    "events": [
+      {
+        "date": "2024-10-15",
+        "state": "RENEWAL",
+        "action": "Approved a purchase order for the annual Fortinet support coterm and renewal from DOF Creations.",
+        "vendor": "DOF Creations",
+        "amount": 214375.65,
+        "summary": "The board approved a purchase order for annual Fortinet support and renewal services. The agenda identifies DOF Creations as the vendor and lists a fiscal impact of $214,375.65.",
+        "evidence": "Approval of purchase order of Fortinet Support Coterm & Renewal from DOF Creations - Annual Renewal 214,375.65.",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=D96MJY5B8BEC",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  },
+  "walton-county-school-district-fy-2026-3": {
+    "district": "Walton County School District | FY 2026",
+    "initiative_name": "Action1 Patching Solution",
+    "category": "patch management",
+    "first_date": "2025-06-17",
+    "last_date": "2025-06-17",
+    "events": [
+      {
+        "date": "2025-06-17",
+        "state": "AUTHORIZATION",
+        "action": "Approved a purchase order for the Action1 patching solution.",
+        "vendor": "FastSpring",
+        "amount": 81496.8,
+        "summary": "The board approved a budgeted purchase order exceeding $50,000 to FastSpring for Action1, a patching solution. The purchase is funded from the General budget.",
+        "evidence": "Approval of Purchase Order Exceeding $50,000. FastSpring for Action1 Patching Solution (H. Martin)",
+        "url": "https://go.boarddocs.com/fl/waltonsd/Board.nsf/Download-AgendaDetailed?open&id=DGNNK8604032",
+        "source_type": "board_agenda_packet"
+      }
+    ]
+  }
+}

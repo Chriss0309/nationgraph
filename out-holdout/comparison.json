@@ -1,0 +1,353 @@
+{
+  "alachua-county-public-schools-fy-2023-0": {
+    "matched": false,
+    "similarity": 0.3188,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2023-02-17",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334819/230020877/Original/USAC_FCC_FORM_470_APPLICATION_230020877_CERTIFIED.pdf",
+    "lead_days": 255
+  },
+  "charlotte-county-public-schools-control-fy-2024-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "citrus-county-school-district-control-fy-2023-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "citrus-county-school-district-control-fy-2023-1": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "citrus-county-school-district-control-fy-2023-2": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "citrus-county-school-district-control-fy-2023-3": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "collier-county-public-schools-control-fy-2023-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "desoto-county-school-district-control-fy-2026-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "franklin-county-school-district-fy-2024-0": {
+    "matched": false,
+    "similarity": 0.2247,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2024-02-15",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334768/240021328/Original/USAC_FCC_FORM_470_APPLICATION_240021328_CERTIFIED.pdf",
+    "lead_days": 168
+  },
+  "franklin-county-school-district-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.2251,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2026-02-23",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260022656/127603/21218909-USAC_FCC_FORM_470_APPLICATION_260022656_CERTIFIED.pdf",
+    "lead_days": 522
+  },
+  "hillsborough-county-public-schools-fy-2023-0": {
+    "matched": false,
+    "similarity": 0.2508,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2023-02-01",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334935/230014747/Current/USAC_FCC_FORM_470_APPLICATION_230014747_CERTIFIED.pdf",
+    "lead_days": 92
+  },
+  "holmes-district-school-board-control-fy-2026-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "holmes-district-school-board-control-fy-2026-1": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "jefferson-county-schools-control-fy-2026-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "lake-county-schools-control-fy-2026-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "lake-county-schools-control-fy-2026-1": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "lake-county-schools-control-fy-2026-2": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "lake-county-schools-control-fy-2026-3": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "leon-county-schools-control-fy-2026-0": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "leon-county-schools-control-fy-2026-1": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "leon-county-schools-control-fy-2026-2": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "leon-county-schools-control-fy-2026-3": {
+    "matched": false,
+    "similarity": null,
+    "outcome_title": null,
+    "outcome_type": null,
+    "outcome_date": null,
+    "outcome_url": null,
+    "lead_days": null
+  },
+  "okaloosa-county-school-district-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.2006,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-18",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260010281/127648/20753533-USAC_FCC_FORM_470_APPLICATION_260010281_CERTIFIED.pdf",
+    "lead_days": 374
+  },
+  "okaloosa-county-school-district-fy-2026-1": {
+    "matched": false,
+    "similarity": 0.299,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-18",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260010281/127648/20753533-USAC_FCC_FORM_470_APPLICATION_260010281_CERTIFIED.pdf",
+    "lead_days": 325
+  },
+  "okaloosa-county-school-district-fy-2026-2": {
+    "matched": false,
+    "similarity": 0.2993,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-18",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260010281/127648/20753533-USAC_FCC_FORM_470_APPLICATION_260010281_CERTIFIED.pdf",
+    "lead_days": 38
+  },
+  "school-district-of-indian-river-county-fy-2023-0": {
+    "matched": true,
+    "similarity": 0.5281,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2023-01-27",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334870/230017048/Original/USAC_FCC_FORM_470_APPLICATION_230017048_CERTIFIED.pdf",
+    "lead_days": 319
+  },
+  "school-district-of-indian-river-county-fy-2023-1": {
+    "matched": false,
+    "similarity": 0.2134,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2023-01-27",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334870/230017048/Original/USAC_FCC_FORM_470_APPLICATION_230017048_CERTIFIED.pdf",
+    "lead_days": 228
+  },
+  "school-district-of-indian-river-county-fy-2024-0": {
+    "matched": false,
+    "similarity": 0.2245,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2024-02-02",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334870/240018368/Original/USAC_FCC_FORM_470_APPLICATION_240018368_CERTIFIED.pdf",
+    "lead_days": 235
+  },
+  "school-district-of-indian-river-county-fy-2025-0": {
+    "matched": false,
+    "similarity": 0.4345,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-02-11",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334870/250021315/Current/USAC_FCC_FORM_470_APPLICATION_250021315_CERTIFIED.pdf",
+    "lead_days": 365
+  },
+  "school-district-of-indian-river-county-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.3524,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2026-01-21",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260015913/127706/20958254-USAC_FCC_FORM_470_APPLICATION_260015913_CERTIFIED.pdf",
+    "lead_days": 317
+  },
+  "school-district-of-lee-county-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.2415,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-09-18",
+    "outcome_url": "https://publicdata.usac.org/SL/Prd/Form470/334986/260000773/Original/USAC_FCC_FORM_470_APPLICATION_260000773_CERTIFIED.pdf",
+    "lead_days": 366
+  },
+  "st-lucie-public-schools-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.2362,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-11-05",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260004891/127892/20641592-USAC_FCC_FORM_470_APPLICATION_260004891_CERTIFIED.pdf",
+    "lead_days": 540
+  },
+  "st-lucie-public-schools-fy-2026-1": {
+    "matched": false,
+    "similarity": 0.2351,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-11-05",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260004891/127892/20641592-USAC_FCC_FORM_470_APPLICATION_260004891_CERTIFIED.pdf",
+    "lead_days": 421
+  },
+  "st-lucie-public-schools-fy-2026-2": {
+    "matched": false,
+    "similarity": 0.1989,
+    "outcome_title": "Firewall Service and Components",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-11-05",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260004891/127892/20641592-USAC_FCC_FORM_470_APPLICATION_260004891_CERTIFIED.pdf",
+    "lead_days": 22
+  },
+  "sumter-county-school-district-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.3021,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2026-02-26",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260023657/127774/21251281-USAC_FCC_FORM_470_APPLICATION_260023657_CERTIFIED.pdf",
+    "lead_days": 79
+  },
+  "walton-county-school-district-fy-2026-0": {
+    "matched": false,
+    "similarity": 0.3236,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-09",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260009204/17000165/20706730-USAC_FCC_FORM_470_APPLICATION_260009204_CERTIFIED.pdf",
+    "lead_days": 539
+  },
+  "walton-county-school-district-fy-2026-1": {
+    "matched": false,
+    "similarity": 0.3405,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-09",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260009204/17000165/20706730-USAC_FCC_FORM_470_APPLICATION_260009204_CERTIFIED.pdf",
+    "lead_days": 530
+  },
+  "walton-county-school-district-fy-2026-2": {
+    "matched": false,
+    "similarity": 0.437,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-09",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260009204/17000165/20706730-USAC_FCC_FORM_470_APPLICATION_260009204_CERTIFIED.pdf",
+    "lead_days": 420
+  },
+  "walton-county-school-district-fy-2026-3": {
+    "matched": false,
+    "similarity": 0.2981,
+    "outcome_title": "Firewall Service, Components, and Necessary Software and Licenses",
+    "outcome_type": "FORM_470",
+    "outcome_date": "2025-12-09",
+    "outcome_url": "https://publicdata.usac.org/EPC/Prd/Form470/260009204/17000165/20706730-USAC_FCC_FORM_470_APPLICATION_260009204_CERTIFIED.pdf",
+    "lead_days": 175
+  }
+}
