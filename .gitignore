@@ -20,6 +20,16 @@
 !/out/comparison.json
 !/out/metrics.json
 !/out/linked_pairs.csv
+/out-holdout/*
+!/out-holdout/timelines.json
+!/out-holdout/comparison.json
+!/out-holdout/metrics.json
+!/out-holdout/linked_pairs.csv
+/out-board/*
+!/out-board/timelines.json
+!/out-board/comparison.json
+!/out-board/metrics.json
+!/out-board/linked_pairs.csv
 
 # production
 /build
@@ -51,3 +61,4 @@ __pycache__/
 
 # agent/editor tool state (churns every session)
 /.cursor/
+/.claude/launch.json
