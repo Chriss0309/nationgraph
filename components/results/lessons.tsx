@@ -1,7 +1,7 @@
 import { Chain } from "@/components/results/viz/chain";
 import { formatCount, type DossierMetrics } from "@/lib/dossier";
 
-const HOLDOUT = { positives: 15, controls: 7 } as const;
+const HOLDOUT = { positives: 17, controls: 17 } as const;
 const CLAIM_CHAIN = ["First mention", "Budget talk", "Board vote"] as const;
 
 type LessonIndex = 1 | 2 | 3 | 4;
@@ -104,7 +104,7 @@ export function lessonsViewFromMetrics(metrics: DossierMetrics): LessonsView {
       {
         index: 4,
         title: "Perfect scores on a tiny sample prove little.",
-        body: `${metrics.precision.correct}/${metrics.precision.labeled} hand-checked precision and ${metrics.controls.fired} false alarms across ${formatCount(metrics.controls.total)} control districts are the right shape. At this size they are receipts, not evidence. A wider sample of still-thin districts would make more single-meeting dots, not a chain. The next run is a locked holdout of ${HOLDOUT.positives} purchases and ${HOLDOUT.controls} control districts I do not open until the prompt and the thresholds are frozen.`,
+        body: `${metrics.precision.correct}/${metrics.precision.labeled} hand-checked precision and ${metrics.controls.fired} false alarms across ${formatCount(metrics.controls.total)} control districts are the right shape. At this size they are receipts, not evidence. A wider sample of still-thin districts would make more single-meeting dots, not a chain. The next run was a locked holdout of ${HOLDOUT.positives} purchases and ${HOLDOUT.controls} control cases, opened only after the prompt and the thresholds were frozen. Its result is on the Holdout page.`,
       },
     ],
     shape,

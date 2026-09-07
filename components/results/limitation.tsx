@@ -23,7 +23,7 @@ export function Limitation({
 }) {
   const missed = Math.max(0, coverage.total - coverage.covered);
   const figureLabel = `${coverage.covered} of ${coverage.total} known purchases surfaced, a ${formatPercent(coverage.rate)} coverage rate.`;
-  const limitationCopy = `${formatCount(coverage.total, true)} districts in this sample made a known cybersecurity purchase. The pipeline surfaced ${formatCount(coverage.covered)}, the only one whose paper trail entered the corpus. The other ${formatCount(missed)} trails never made it in. A thin sample of meeting paper misses most of what boards do. The fix is more documents per district, not a smarter model.`;
+  const limitationCopy = `${formatCount(coverage.total, true)} districts in this sample made a known cybersecurity purchase. The pipeline surfaced ${formatCount(coverage.covered)}. The other ${formatCount(missed)} did not clear the floor, mostly because no paper for them entered the corpus. A thin sample of meeting paper misses most of what boards do. The fix is more documents per district, not a smarter model.`;
   const caption = `Coverage ${coverage.covered} of ${coverage.total} (${formatPercent(coverage.rate)}). Recall is a data problem; precision held at ${precision.correct}/${precision.labeled}.`;
   const tiles: CoverageTile[] = Array.from(
     { length: coverage.total },
@@ -38,7 +38,7 @@ export function Limitation({
         };
       }
       return {
-        detail: found ? "found" : "paper never collected",
+        detail: found ? "found" : "missed",
         found,
         title: null,
       };

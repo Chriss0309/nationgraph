@@ -208,7 +208,7 @@ export function Backtest({
   const stats: StatItem[] = [
     {
       key: "lead",
-      display: metrics.medianLeadDays === null ? "—" : String(metrics.medianLeadDays),
+      display: metrics.medianLeadDays === null ? "none" : String(metrics.medianLeadDays),
       countTo: metrics.medianLeadDays,
       label: "days early",
     },

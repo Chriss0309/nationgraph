@@ -75,7 +75,7 @@ export function Method({
               <MethodStep
                 index={3}
                 title="Link"
-                body="Temporal entity resolution: events about the same initiative are linked across meetings into trajectories — the paper trail of one purchase forming over time."
+                body="Temporal entity resolution: events about the same initiative are linked across meetings into trajectories, the paper trail of one purchase forming over time."
               />
               <MethodStep
                 index={4}

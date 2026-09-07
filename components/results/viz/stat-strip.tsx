@@ -15,7 +15,8 @@ export interface StatItem {
 function CountUp({ to }: { to: number }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { amount: 0.6, once: true });
-  const [shown, setShown] = useState(0);
+  // Server HTML carries the real value; the count-up is a progressive enhancement.
+  const [shown, setShown] = useState(to);
 
   useEffect(() => {
     if (!inView) return;

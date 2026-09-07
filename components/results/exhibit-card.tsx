@@ -15,7 +15,7 @@ export function ExhibitA({ hit }: { hit: MatchedCaseStudy | null }) {
           <div>
             <h2 className="section-title">It was sitting in the agenda packet.</h2>
             <p className="section-lede">
-              A real line from a school-board agenda packet — vendor and
+              A real line from a school-board agenda packet, with vendor and
               dollar amount attached, months before the RFP.
             </p>
           </div>

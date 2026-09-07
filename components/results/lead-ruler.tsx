@@ -18,7 +18,7 @@ export function LeadRuler({ hit }: { hit: MatchedCaseStudy }) {
   const scale = timeScale(span);
   const ticks = monthTicks(span);
   const coordinate = (date: typeof signal.date) => 60 + scale(date) * 8.8;
-  const label = `${hit.district} board signal on ${formatDate(signal.date)} preceded the ${outcome.type} on ${formatDate(outcome.date)} by ${hit.verdict.leadDays} days.`;
+  const label = `${hit.district} board signal on ${formatDate(signal.date)} preceded the ${outcome.type.replaceAll("_", " ")} on ${formatDate(outcome.date)} by ${hit.verdict.leadDays} days.`;
 
   return (
     <figure
@@ -95,7 +95,7 @@ export function LeadRuler({ hit }: { hit: MatchedCaseStudy }) {
           <span className="block">{formatDate(signal.date)}</span>
         </p>
         <p className="hero-rfp-label text-right">
-          <span className="font-semibold text-ng-orange">{outcome.type}</span>
+          <span className="font-semibold text-ng-orange">{outcome.type.replaceAll("_", " ")}</span>
           <span className="block">{formatDate(outcome.date)}</span>
         </p>
       </div>
