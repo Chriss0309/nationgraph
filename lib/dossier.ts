@@ -1,6 +1,5 @@
-import comparisonRaw from "@/out/comparison.json";
-import metricsRaw from "@/out/metrics.json";
-import timelinesRaw from "@/out/timelines.json";
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 
 /** Branded ISO date, validated once at the artifact boundary. */
 export type IsoDate = string & { readonly __brand: "IsoDate" };
@@ -81,7 +80,7 @@ export interface DossierMetrics {
     rate: number;
     multiEventClusters: number;
   };
-  precision: { correct: number; labeled: number; rate: number };
+  precision: { correct: number; labeled: number; rate: number | null };
   linkThreshold: number;
   matchFloor: number;
 }
@@ -104,9 +103,68 @@ export interface Dossier {
   span: DateSpan | null;
 }
 
-type RawComparison = (typeof comparisonRaw)[keyof typeof comparisonRaw];
-type RawTimeline = (typeof timelinesRaw)[keyof typeof timelinesRaw];
-type RawEvent = RawTimeline["events"][number];
+/** The three pipeline runs the site renders; each is a `trajectory.py --outdir`. */
+export type DatasetName = "development" | "holdout" | "board";
+
+const DATASET_DIRS: Record<DatasetName, string> = {
+  development: "out",
+  holdout: "out-holdout",
+  board: "out-board",
+};
+
+interface RawEvent {
+  date: string;
+  state: string;
+  action: string;
+  vendor: string | null;
+  amount: number | null;
+  summary: string;
+  evidence: string;
+  url: string;
+  source_type: string;
+}
+
+interface RawTimeline {
+  district: string;
+  initiative_name: string;
+  category: string;
+  first_date: string;
+  last_date: string;
+  events: RawEvent[];
+}
+
+interface RawComparison {
+  matched: boolean;
+  similarity: number | null;
+  outcome_title: string | null;
+  outcome_type: string | null;
+  outcome_date: string | null;
+  outcome_url: string | null;
+  lead_days: number | null;
+}
+
+interface RawMetrics {
+  n_docs: number;
+  n_events: number;
+  n_clusters: number;
+  coverage: { covered: number; total: number; rate: number };
+  median_lead_days: number | null;
+  control_fp: {
+    firing_districts: number;
+    control_districts: number;
+    rate: number;
+    n_multi_event_clusters: number;
+  };
+  precision: { correct: number; labeled: number; rate: number | null };
+  threshold: number;
+  match_threshold: number;
+}
+
+interface RawArtifacts {
+  timelines: Record<string, RawTimeline>;
+  comparison: Record<string, RawComparison>;
+  metrics: RawMetrics;
+}
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const WEB_URL = /^https?:\/\//i;
@@ -273,49 +331,75 @@ function isMatchedCase(caseStudy: CaseStudy): caseStudy is MatchedCaseStudy {
   return caseStudy.verdict.kind === "matched";
 }
 
-function assertArtifactAgreement(): void {
-  const timelineKeys = Object.keys(timelinesRaw).sort();
-  const comparisonKeys = Object.keys(comparisonRaw).sort();
+function assertArtifactAgreement(name: DatasetName, raw: RawArtifacts): void {
+  const timelineKeys = Object.keys(raw.timelines).sort();
+  const comparisonKeys = Object.keys(raw.comparison).sort();
 
   if (
     timelineKeys.length !== comparisonKeys.length ||
     timelineKeys.some((key, index) => key !== comparisonKeys[index])
   ) {
-    throw new Error("Timeline and comparison artifact keys differ");
+    throw new Error(`${name}: timeline and comparison artifact keys differ`);
   }
 
-  const eventCount = Object.values(timelinesRaw).reduce(
+  const eventCount = Object.values(raw.timelines).reduce(
     (total, timeline) => total + timeline.events.length,
     0,
   );
 
-  if (eventCount !== metricsRaw.n_events) {
+  if (eventCount !== raw.metrics.n_events) {
     throw new Error(
-      `Flattened event count ${eventCount} differs from metrics.n_events ${metricsRaw.n_events}`,
+      `${name}: flattened event count ${eventCount} differs from metrics.n_events ${raw.metrics.n_events}`,
     );
   }
 
-  if (timelineKeys.length !== metricsRaw.n_clusters) {
+  if (timelineKeys.length !== raw.metrics.n_clusters) {
     throw new Error(
-      `Timeline count ${timelineKeys.length} differs from metrics.n_clusters ${metricsRaw.n_clusters}`,
+      `${name}: timeline count ${timelineKeys.length} differs from metrics.n_clusters ${raw.metrics.n_clusters}`,
     );
   }
 
-  const matchedCount = Object.values(comparisonRaw).filter(
+  const matchedCount = Object.values(raw.comparison).filter(
     (comparison) => comparison.matched,
   ).length;
 
-  if (matchedCount !== metricsRaw.coverage.covered) {
+  if (matchedCount !== raw.metrics.coverage.covered) {
     throw new Error(
-      `Matched count ${matchedCount} differs from metrics.coverage.covered ${metricsRaw.coverage.covered}`,
+      `${name}: matched count ${matchedCount} differs from metrics.coverage.covered ${raw.metrics.coverage.covered}`,
     );
   }
 }
 
-function buildDossier(): Dossier {
-  assertArtifactAgreement();
+// Each directory is spelled out so the bundler traces three folders, not the repo.
+function artifactDir(name: DatasetName): string {
+  switch (name) {
+    case "development":
+      return join(process.cwd(), "out");
+    case "holdout":
+      return join(process.cwd(), "out-holdout");
+    case "board":
+      return join(process.cwd(), "out-board");
+  }
+}
 
-  const cases: CaseStudy[] = Object.entries(timelinesRaw).map(
+function readArtifacts(name: DatasetName): RawArtifacts | null {
+  const dir = artifactDir(name);
+  if (!existsSync(join(dir, "metrics.json"))) {
+    return null;
+  }
+  const read = <T,>(file: string): T =>
+    JSON.parse(readFileSync(join(dir, file), "utf8")) as T;
+  return {
+    timelines: read<Record<string, RawTimeline>>("timelines.json"),
+    comparison: read<Record<string, RawComparison>>("comparison.json"),
+    metrics: read<RawMetrics>("metrics.json"),
+  };
+}
+
+function buildDossier(name: DatasetName, raw: RawArtifacts): Dossier {
+  assertArtifactAgreement(name, raw);
+
+  const cases: CaseStudy[] = Object.entries(raw.timelines).map(
     ([id, timeline]) => {
       const parsedEvents = timeline.events
         .map((event, index) => parseEvent(event, `${id}.events[${index}]`))
@@ -334,7 +418,7 @@ function buildDossier(): Dossier {
         id,
         initiative: timeline.initiative_name,
         lastDate: parseIsoDate(timeline.last_date, `${id}.last_date`),
-        verdict: parseVerdict(id, comparisonRaw[id as keyof typeof comparisonRaw]),
+        verdict: parseVerdict(id, raw.comparison[id]),
       };
     },
   );
@@ -373,21 +457,21 @@ function buildDossier(): Dossier {
           min: sortedDates[0],
         };
   const metrics: DossierMetrics = {
-    clusters: metricsRaw.n_clusters,
+    clusters: raw.metrics.n_clusters,
     controls: {
-      fired: metricsRaw.control_fp.firing_districts,
-      multiEventClusters: metricsRaw.control_fp.n_multi_event_clusters,
-      rate: metricsRaw.control_fp.rate,
-      total: metricsRaw.control_fp.control_districts,
+      fired: raw.metrics.control_fp.firing_districts,
+      multiEventClusters: raw.metrics.control_fp.n_multi_event_clusters,
+      rate: raw.metrics.control_fp.rate,
+      total: raw.metrics.control_fp.control_districts,
     },
-    coverage: metricsRaw.coverage,
-    docs: metricsRaw.n_docs,
-    events: metricsRaw.n_events,
-    linkThreshold: metricsRaw.threshold,
+    coverage: raw.metrics.coverage,
+    docs: raw.metrics.n_docs,
+    events: raw.metrics.n_events,
+    linkThreshold: raw.metrics.threshold,
     matches: matchedCases.length,
-    matchFloor: metricsRaw.match_threshold,
-    medianLeadDays: metricsRaw.median_lead_days,
-    precision: metricsRaw.precision,
+    matchFloor: raw.metrics.match_threshold,
+    medianLeadDays: raw.metrics.median_lead_days,
+    precision: raw.metrics.precision,
   };
 
   return {
@@ -408,10 +492,23 @@ function buildDossier(): Dossier {
   };
 }
 
-const dossier = buildDossier();
+const dossiers = new Map<DatasetName, Dossier | null>();
 
-/** Parse, join, classify, and derive the build-time dossier. */
-export function loadDossier(): Dossier {
+/** Parse, join, classify, and derive one run's dossier; null when that run has not happened. */
+export function loadDossier(name: DatasetName): Dossier | null {
+  if (!dossiers.has(name)) {
+    const raw = readArtifacts(name);
+    dossiers.set(name, raw === null ? null : buildDossier(name, raw));
+  }
+  return dossiers.get(name) ?? null;
+}
+
+/** The development run is committed and must exist. */
+export function requireDossier(name: DatasetName): Dossier {
+  const dossier = loadDossier(name);
+  if (dossier === null) {
+    throw new Error(`Missing pipeline artifacts for the ${name} run (${DATASET_DIRS[name]}/)`);
+  }
   return dossier;
 }
 

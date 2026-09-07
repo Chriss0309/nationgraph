@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
-import { loadDossier } from "@/lib/dossier";
-
 import "./globals.css";
 
 const body = Geist({
@@ -17,14 +15,10 @@ const mono = Geist_Mono({
   display: "swap",
 });
 
-const { metrics } = loadDossier();
-
 export const metadata: Metadata = {
-  title: "demograph — Know before the RFP drops",
+  title: "DemoGraph · Florida school board packets, read for cybersecurity purchases",
   description:
-    metrics.medianLeadDays === null
-      ? "demograph traces procurement intent in public board documents before the RFP drops."
-      : `demograph found a public board signal ${metrics.medianLeadDays} days before the RFP dropped.`,
+    "Reads Florida school board packets for cybersecurity purchases and tests itself on 17 unseen E-rate firewall filings. Result: 1 of 17.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

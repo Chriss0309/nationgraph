@@ -59,17 +59,6 @@ export function Hero({
 
   return (
     <>
-      <header className="border-b border-border bg-background">
-        <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-5 sm:px-8">
-          <span className="font-heading text-base font-semibold tracking-[-0.02em]">
-            DemoGraph
-          </span>
-          <span className="font-mono text-[10px] tracking-[0.08em] text-muted-foreground sm:text-xs">
-            Research prototype · Florida school districts
-          </span>
-        </div>
-      </header>
-
       <section className="hero-surface flex min-h-[calc(100svh-3.5rem)] items-center border-b border-border">
         <div className="mx-auto w-full max-w-7xl px-5 py-8 sm:px-8 sm:py-10">
           <div className="hero-copy max-w-4xl">
@@ -80,7 +69,7 @@ export function Hero({
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
               A working prototype I built to answer one question: can a
-              purchase be spotted in public board paper before the RFP drops?
+              purchase be spotted in public board paper before the RFP, the request for proposals, drops?
             </p>
             <p className="mt-3 max-w-2xl text-base leading-7 text-white/75 sm:text-lg sm:leading-8">
               It read {docs} real Florida board documents, linked purchase
