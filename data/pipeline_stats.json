@@ -1,0 +1,38 @@
+{
+  "generated": "2026-09-07T06:22:20+00:00",
+  "districts": {
+    "total": 67,
+    "boarddocs": 45,
+    "unknown": 2,
+    "other": 20
+  },
+  "meetings": 15973,
+  "meetings_span": [
+    "2015-01-01",
+    "2026-12-14"
+  ],
+  "runs": {
+    "holdout": {
+      "source_rows": 1826,
+      "unique_packets": 1760,
+      "fetched": 1760,
+      "failed": 0,
+      "short": 33,
+      "chars": 46998845,
+      "keyword_relevant": 876,
+      "clipped_chars": 13394229,
+      "approx_input_tokens": 3348557
+    },
+    "board": {
+      "source_rows": 2246,
+      "unique_packets": 2246,
+      "fetched": 2246,
+      "failed": 0,
+      "short": 71,
+      "chars": 60071245,
+      "keyword_relevant": 1112,
+      "clipped_chars": 17398081,
+      "approx_input_tokens": 4349520
+    }
+  }
+}

@@ -46,9 +46,46 @@ zero extracted events remain in the false-positive denominator.
 - Searches that produce no defensible document are logged as missing; no substitute or
   fictional content is created.
 
+## Holdout construction (automated, 2026-09-07)
+
+The development corpus above was collected by hand. The holdout is built by `corpus.py`
+from two machine-readable surfaces so that no document or outcome is chosen by a person:
+
+- Outcomes: E-rate FCC Form 470 filings from USAC open data (dataset `jt8s-3q52`),
+  filtered to Florida, applicant type "School District", and a firewall function. One
+  positive case per district and funding year; the index date is the earliest certified
+  date in that year and the outcome document is the certified form or its RFP attachment.
+  Charter operators, diocesan systems, and library systems are excluded by name matching
+  against the 67 county districts in `data/districts.csv`.
+- Sources: every BoardDocs agenda packet of the district inside the 18-month window ending
+  the day before the index date, from the portal's own meeting index. A case with fewer
+  than 8 packets in its window is recorded as `insufficient_sources` and excluded from the
+  denominators, because "no signal" means nothing when nothing was read.
+- Controls: for each complete positive case, one BoardDocs district with no firewall
+  filing from the window start through 365 days after the index date and at least 8
+  packets in the same window, choosing the least-reused district by name order. This
+  matches the protocol on calendar period and portal type; it does not match on
+  enrollment, which the hand-built development controls did.
+- Scope: districts whose agendas are not on BoardDocs are out of scope and listed as such.
+  The control claim is bounded to E-rate firewall filings; a control may have bought a
+  firewall outside E-rate.
+
+The prompt (`PROMPT_VERSION` 2), link threshold `0.78`, and match floor `0.50` are the
+frozen development values. Multiple cases from one district share packets across
+overlapping windows; the extraction cache means each packet is read by the model once.
+
 ## Reporting
 
 Report raw counts alongside coverage, median lead days, reviewed precision, and control
 false-positive rate. Development results are for debugging. Only the untouched holdout
 is evidence about generalization, and a metric with a zero denominator is reported as
 not measured.
+
+## Holdout result (2026-09-07, frozen parameters)
+
+17 positive cases and 17 controls across 45 BoardDocs districts; 1,760 packets; 42
+grounded events in 39 trajectories, none spanning two meetings. Coverage 1/17 (Indian
+River FY2023, 319 days early at similarity 0.53). Control alarms 1/17 (Jefferson FY2026:
+two agenda items from one July 2024 meeting approving Fortinet firewall hardware and
+support, a purchase made outside E-rate). Precision awaits one human label. Nothing was
+tuned after this run; the known failure modes it exposed are listed in the README.
