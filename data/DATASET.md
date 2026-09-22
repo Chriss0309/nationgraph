@@ -81,6 +81,23 @@ false-positive rate. Development results are for debugging. Only the untouched h
 is evidence about generalization, and a metric with a zero denominator is reported as
 not measured.
 
+## Known bounds on the holdout sample
+
+Recorded after the run, and not used to change it:
+
+- **Controls are bounded by E-rate and by time.** A control is chosen for having no firewall
+  Form 470 from its window start through 365 days after the index date. That counts E-rate
+  filings only, so a purchase made outside E-rate does not disqualify a control; the Jefferson
+  alarm is exactly this case. For 10 of the 17 controls the 365-day tail had not fully elapsed
+  at the 2026-09-07 data pull, so their claim is limited to filings visible at that date. All 17
+  were re-checked against live USAC data on 2026-09-15 and none had filed inside its window.
+- **The sample leans on one funding year.** 11 of the 17 positives are FY2026, the first year of
+  the FY2026-FY2030 Category 2 budget cycle, when per-student budgets rose 20.7% to $201.57 and
+  unspent balances stopped rolling over. Florida county districts filing a firewall Form 470 went
+  from 4 to 7 per year in FY2019-FY2025 to 17 in FY2026. Coverage was 0 of 11 on FY2026 cases and
+  1 of 6 on FY2023-FY2025 cases. At these counts the split is not distinguishable from chance and
+  is recorded as an observation, not a finding.
+
 ## Holdout result (2026-09-07, frozen parameters)
 
 17 positive cases and 17 controls across 45 BoardDocs districts; 1,760 packets; 42

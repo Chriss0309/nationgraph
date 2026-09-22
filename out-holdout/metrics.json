@@ -16,8 +16,8 @@
   },
   "precision": {
     "correct": 0,
-    "labeled": 0,
-    "rate": null
+    "labeled": 1,
+    "rate": 0.0
   },
   "threshold": 0.78,
   "match_threshold": 0.5
