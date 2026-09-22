@@ -18,7 +18,7 @@ export function LeadRuler({ hit }: { hit: MatchedCaseStudy }) {
   const scale = timeScale(span);
   const ticks = monthTicks(span);
   const coordinate = (date: typeof signal.date) => 60 + scale(date) * 8.8;
-  const label = `${hit.district} board signal on ${formatDate(signal.date)} preceded the ${outcome.type.replaceAll("_", " ")} on ${formatDate(outcome.date)} by ${hit.verdict.leadDays} days.`;
+  const label = `A board document from ${hit.district} on ${formatDate(signal.date)} came ${hit.verdict.leadDays} days before the purchase went public on ${formatDate(outcome.date)}.`;
 
   return (
     <figure
@@ -91,11 +91,11 @@ export function LeadRuler({ hit }: { hit: MatchedCaseStudy }) {
       </svg>
       <div className="mx-[6%] -mt-1 grid grid-cols-2 gap-4 font-mono text-[10px] leading-5 text-muted-foreground sm:text-xs">
         <p className="hero-board-label">
-          <span className="font-semibold text-ng-green-600">Board packet</span>
+          <span className="font-semibold text-ng-green-600">Board document</span>
           <span className="block">{formatDate(signal.date)}</span>
         </p>
         <p className="hero-rfp-label text-right">
-          <span className="font-semibold text-ng-orange">{outcome.type.replaceAll("_", " ")}</span>
+          <span className="font-semibold text-ng-orange">Went public</span>
           <span className="block">{formatDate(outcome.date)}</span>
         </p>
       </div>

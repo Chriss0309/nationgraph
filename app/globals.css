@@ -98,6 +98,10 @@
   --sidebar-ring: #2d8657;
   --font-display: "Helvetica Neue", Arial, sans-serif;
   --font-serif: Georgia, serif;
+
+  /* motion */
+  --ease-out-strong: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @layer base {
@@ -137,6 +141,16 @@
 
   .figure-title {
     @apply font-heading text-xl font-semibold tracking-tight;
+  }
+
+  /* one shared eyebrow: mono, tracked, quiet */
+  .eyebrow {
+    @apply font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground sm:text-xs;
+  }
+
+  /* a rule that draws itself when its section enters */
+  .rule {
+    @apply block h-px w-full origin-left bg-border;
   }
 
   .annotation {
@@ -207,6 +221,11 @@
   background-size: 100% 100%;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+}
+
+.coverage-tile {
+  animation: reveal-up 300ms var(--ease-out-soft) both;
+  animation-delay: calc(var(--i, 0) * 50ms);
 }
 
 .coverage-missed {
@@ -383,5 +402,72 @@
   .hero-quote-highlight {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+
+/* ---------------------------------------------------------------
+   Motion: staged scroll reveals.
+   CSS keyframes run off the main thread, so these stay smooth while
+   the page is still settling. Reveal sets data-inview.
+   --------------------------------------------------------------- */
+
+.reveal > * {
+  opacity: 0;
+}
+
+[data-inview="true"].reveal > * {
+  animation: reveal-up 620ms var(--ease-out-soft) both;
+}
+
+/* stagger semantic chunks ~90ms apart (infrequent, staged entrance) */
+[data-inview="true"].reveal > *:nth-child(1) { animation-delay: 0ms; }
+[data-inview="true"].reveal > *:nth-child(2) { animation-delay: 90ms; }
+[data-inview="true"].reveal > *:nth-child(3) { animation-delay: 180ms; }
+[data-inview="true"].reveal > *:nth-child(4) { animation-delay: 270ms; }
+[data-inview="true"].reveal > *:nth-child(5) { animation-delay: 360ms; }
+[data-inview="true"].reveal > *:nth-child(6) { animation-delay: 450ms; }
+
+[data-inview="true"] .rule {
+  /* line-draw replaces reveal-up on this element, so restore opacity here */
+  opacity: 1;
+  animation: line-draw 700ms var(--ease-out-strong) both;
+}
+
+/* numerals in a stat tile land after the tile itself */
+.stat-value {
+  font-variant-numeric: tabular-nums;
+}
+
+/* paper grain: keeps large flat areas from reading as dead screen space */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* hairline column rules for the editorial grid */
+.ledger-row + .ledger-row {
+  border-top: 1px solid var(--border);
+}
+
+/* Without JS, Reveal never sets data-inview, so the content must not stay hidden. */
+@media (scripting: none) {
+  .reveal > * {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal > *,
+  [data-inview="true"].reveal > *,
+  [data-inview="true"] .rule {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

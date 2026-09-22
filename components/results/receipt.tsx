@@ -1,40 +1,29 @@
-import {
-  formatPercent,
-  formatSimilarity,
-  type DossierMetrics,
-} from "@/lib/dossier";
+const linkClass = "underline decoration-border underline-offset-4 hover:decoration-primary";
 
-export function Receipt({ metrics }: { metrics: DossierMetrics }) {
-  const countLine = `${metrics.docs} documents · ${metrics.events} events · ${metrics.clusters} trajectories · ${metrics.matches} ${metrics.matches === 1 ? "match" : "matches"}`;
-  const medianLead =
-    metrics.medianLeadDays === null
-      ? "not established"
-      : `${metrics.medianLeadDays} days`;
-  const resultLine = `coverage ${metrics.coverage.covered}/${metrics.coverage.total} (${formatPercent(metrics.coverage.rate)}) · median lead ${medianLead} · control false alarms ${metrics.controls.fired}/${metrics.controls.total} · precision ${metrics.precision.correct}/${metrics.precision.labeled}`;
-  const thresholdLine = `link threshold ${formatSimilarity(metrics.linkThreshold)} · match floor ${formatSimilarity(metrics.matchFloor)}`;
+const REPO = "https://github.com/Chriss0309/nationgraph";
 
+export function Receipt() {
   return (
     <footer className="bg-card">
       <div className="mx-auto w-full max-w-7xl px-5 py-12 sm:px-8 sm:py-16">
         <div className="border-t border-border pt-6 font-mono text-[10px] leading-6 text-muted-foreground sm:text-xs">
-          <p className="mt-4 text-foreground">
-            Built by Chris
-          </p>
+          <p className="text-foreground">Chris Ooi</p>
           <p>
-            <a
-              href="mailto:ooichristopher8@gmail.com"
-              className="underline decoration-border underline-offset-4 hover:decoration-primary"
-            >
+            <a href="mailto:ooichristopher8@gmail.com" className={linkClass}>
               ooichristopher8@gmail.com
             </a>
           </p>
           <p>
-            <a
-              href="https://github.com/Chriss0309/nationgraph"
-              className="underline decoration-border underline-offset-4 hover:decoration-primary"
-            >
-              Here&apos;s the Repo
+            <a href={REPO} className={linkClass}>
+              github.com/Chriss0309/nationgraph
             </a>
+          </p>
+          <p className="mt-4 max-w-[62ch]">
+            Every number on this page comes straight out of the saved run files when the page builds. The code,{" "}
+            <a href={`${REPO}/blob/main/trajectory.py`} className={linkClass}>
+              one Python file
+            </a>
+            , was locked before the test ran and hasn&apos;t been touched since.
           </p>
         </div>
       </div>

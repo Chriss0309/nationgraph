@@ -16,9 +16,9 @@ const mono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DemoGraph · Florida school board packets, read for cybersecurity purchases",
+  title: "Chris Ooi · Predicting what school districts buy",
   description:
-    "Reads Florida school board packets for cybersecurity purchases and tests itself on 17 unseen E-rate firewall filings. Result: 1 of 17.",
+    "I built software to spot school district tech purchases before they go public, then tested it on 17 it had never seen. It caught 0 — and the reason is a federal rule, not a bug.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -26,6 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       className={`${body.variable} ${mono.variable} h-full antialiased`}
+      // Browser extensions write style and data-* onto <html> before React
+      // hydrates. This suppresses that one element only, never its children.
+      suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
